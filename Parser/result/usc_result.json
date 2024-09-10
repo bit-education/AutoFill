@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "title",
+      "Id": "title",
+      "Label": "Title",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "firstName",
+      "Id": "firstName",
+      "Label": "Legal First Name *",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "middleInitial",
+      "Id": "middleInitial",
+      "Label": "Middle Name",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "lastName",
+      "Id": "lastName",
+      "Label": "Last or Family Name *",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "suffix",
+      "Id": "suffix",
+      "Label": "Suffix (Jr., Sr., III, etc.)",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "email",
+      "Name": "email",
+      "Id": "email",
+      "Label": "Email Address *",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "email",
+      "Name": "emailConfirm",
+      "Id": "emailConfirm",
+      "Label": "Confirm Email Address *",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "tel",
+      "Name": "prefPhone",
+      "Id": "cas-reapp-contact-information-pref-phone-number",
+      "Label": "Preferred Phone Number *",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "tel",
+      "Name": "altPhone",
+      "Id": "cas-reapp-contact-information-alternate-phone-number",
+      "Label": "Alternate Phone Number",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "checkbox",
+      "Name": "textAuthorization",
+      "Id": "profile-user-account-contactInfo-textAuthorization_checkBox",
+      "Label": "I agree to the Terms of Service and to receive calls and/or texts at any phone number I have provided or may provide in the future, including any wireless number, from any entity associated with my application process, including but not limited to my designated schools and programs, the Liaison International support team, the association or institution for this Centralized Application Service.",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "uname",
+      "Id": "uname",
+      "Label": "Username *",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "password",
+      "Name": "password",
+      "Id": "newUserAccount-userNameAndPwd-password",
+      "Label": "Password *",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "password",
+      "Name": "confirmPassword",
+      "Id": "newUserAccount-userNameAndPwd-confirmPassword",
+      "Label": "Confirm Password *",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "radio",
+      "Name": "cas-program-questions-1989082",
+      "Id": "cas-program-questions-1989082-22795707",
+      "Label": "Are you currently located in a European Union country, Iceland, Liechtenstein, Norway, or Switzerland? Yes",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "radio",
+      "Name": "cas-program-questions-1989082",
+      "Id": "cas-program-questions-1989082-22795708",
+      "Label": "Are you currently located in a European Union country, Iceland, Liechtenstein, Norway, or Switzerland? No",
+      "Children": []
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "data": [
+    {
+      "Tag": "form",
+      "Type": "",
+      "Name": null,
+      "Id": "",
+      "Label": "",
+      "Children": [
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "prefix",
+          "Id": "prefix",
+          "Label": "Prefix",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "text",
+          "Name": "first",
+          "Id": "first",
+          "Label": "First (Given)",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "text",
+          "Name": "middle",
+          "Id": "middle",
+          "Label": "Middle",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "text",
+          "Name": "last",
+          "Id": "last",
+          "Label": "Last (Family)",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "suffix",
+          "Id": "suffix",
+          "Label": "Suffix",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "text",
+          "Name": "preferred",
+          "Id": "preferred",
+          "Label": "Preferred First",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "text",
+          "Name": "alias",
+          "Id": "alias",
+          "Label": "Other Last Names Used",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "address__0__country",
+          "Id": "address__0__country",
+          "Label": "Country",
+          "Children": []
+        },
+        {
+          "Tag": "textarea",
+          "Type": "",
+          "Name": "address__0__street",
+          "Id": "address__0__street",
+          "Label": "Street Address",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "text",
+          "Name": "address__0__city",
+          "Id": "address__0__city",
+          "Label": "City",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "address__0__region",
+          "Id": "address__0__region",
+          "Label": "Region",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "text",
+          "Name": "address__0__postal",
+          "Id": "address__0__postal",
+          "Label": "Postal Code",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "address__0__type",
+          "Id": "address__0__type",
+          "Label": "Address Type",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "tel",
+          "Name": "phone",
+          "Id": "phone",
+          "Label": "Primary Phone",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "tel",
+          "Name": "mobile",
+          "Id": "mobile",
+          "Label": "Mobile",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "sex",
+          "Id": "sex",
+          "Label": "Legal Sex",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "gender_identity",
+          "Id": "gender_identity",
+          "Label": "Gender Identity",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "birthdate_m",
+          "Id": "birthdate_m",
+          "Label": "Birthdate Month",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "birthdate_d",
+          "Id": "birthdate_d",
+          "Label": "Birthdate Day",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "birthdate_y",
+          "Id": "birthdate_y",
+          "Label": "Birthdate Year",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "birthnation",
+          "Id": "birthnation",
+          "Label": "Birth Country",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "language",
+          "Id": "language",
+          "Label": "Native Language",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "citizenship1",
+          "Id": "citizenship1",
+          "Label": "Primary Citizenship",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "citizenship2",
+          "Id": "citizenship2",
+          "Label": "Dual Citizenship",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "resident",
+          "Id": "resident",
+          "Label": "Residency Status",
+          "Children": []
+        },
+        {
+          "Tag": "select",
+          "Type": "",
+          "Name": "visa",
+          "Id": "visa",
+          "Label": "Current Visa Type",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "text",
+          "Name": "ssn",
+          "Id": "ssn",
+          "Label": "Social Security Number",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanic",
+          "Id": "hispanic_1",
+          "Label": "Hispanic or Latino: Yes",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanic",
+          "Id": "hispanic_0",
+          "Label": "Hispanic or Latino: No",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "race",
+          "Id": "race_adfcfcb5-5394-4fca-991f-2e460e924fee",
+          "Label": "Race: American Indian or Alaska Native",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "race",
+          "Id": "race_5c5b0b7a-73a6-4797-8d82-562aa4e31107",
+          "Label": "Race: Asian",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "race",
+          "Id": "race_12b49f2e-6e7d-4402-b58d-c6eab43b789a",
+          "Label": "Race: Black or African American",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "race",
+          "Id": "race_3815164f-99e7-4333-9006-4b6a3e3f3a0e",
+          "Label": "Race: Native Hawaiian or Other Pacific",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "race",
+          "Id": "race_cd6b1bac-e441-4649-a7d3-a61ccf8c860c",
+          "Label": "Race: White",
+          "Children": []
+        },
+        {
+          "Tag": "button",
+          "Type": "button",
+          "Name": null,
+          "Id": "",
+          "Label": "Continue",
+          "Children": []
+        }
+      ]
+    }
+  ]
+}

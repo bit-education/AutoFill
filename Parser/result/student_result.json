@@ -1,0 +1,236 @@
+{
+  "data": [
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "jbxxVO.xbDm",
+      "Id": "jbxx_xb",
+      "Label": "性别： ",
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "jbxxVO.mzDm",
+      "Id": "jbxx_mz",
+      "Label": "民族： ",
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "jbxxVO.zzmmDm",
+      "Id": "jbxx_zzmm",
+      "Label": "政治面貌： ",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "jbxxVO.sll",
+      "Id": "",
+      "Label": "裸眼视力（左/右）：",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "jbxxVO.slr",
+      "Id": "",
+      "Label": "裸眼视力（右）：",
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "jbxxVO.sm",
+      "Id": "",
+      "Label": "是否色盲： ",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "jbxxVO.sg",
+      "Id": "",
+      "Label": "身高(cm)： ",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "jbxxVO.tz",
+      "Id": "",
+      "Label": "体重(kg)： ",
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "jbxxVO.bmszdDm",
+      "Id": "bmszdDqlist",
+      "Label": "高考报名所在地： ",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "jbxxVO.gkbmh",
+      "Id": "",
+      "Label": "高考报名号： ",
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "jbxxVO.kslxDm",
+      "Id": "jbxx_kslx",
+      "Label": "考生类型： ",
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "jbxxVO.wyyzDm",
+      "Id": "jbxx_wyyz",
+      "Label": "外语语种： ",
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "jbxxVO.xklbDm",
+      "Id": "jbxx_xklx",
+      "Label": "学科类型： ",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "jbxxVO.lxdh",
+      "Id": "jbxx_lxdh",
+      "Label": "联系电话： ",
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "jbxxVO.txdzDm",
+      "Id": "txdzDqlist",
+      "Label": "联系地址省市区：",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "jbxxVO.txdzXxdz",
+      "Id": "",
+      "Label": "联系地址： ",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "jbxxVO.txdzYzbm",
+      "Id": "hdxx_daszDwYzbm",
+      "Label": "邮政编码： ",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "faInfoVO.xm",
+      "Id": "faname",
+      "Label": "父亲姓名",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "faInfoVO.lxdh",
+      "Id": "jbxx_fa_lxdh",
+      "Label": "父亲联系电话",
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "faInfoVO.whcdDm",
+      "Id": "jbxx_fa_whcd",
+      "Label": "父亲文化程度",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "faInfoVO.zy",
+      "Id": "jbxx_fa_zy",
+      "Label": "父亲职业",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "faInfoVO.dw",
+      "Id": "jbxx_fa_dw",
+      "Label": "父亲工作单位",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "faInfoVO.zw",
+      "Id": "jbxx_fa_zw",
+      "Label": "父亲职务",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "maInfoVO.xm",
+      "Id": "maname",
+      "Label": "母亲姓名",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "maInfoVO.lxdh",
+      "Id": "jbxx_ma_lxdh",
+      "Label": "母亲联系电话",
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Type": "",
+      "Name": "maInfoVO.whcdDm",
+      "Id": "jbxx_ma_whcd",
+      "Label": "母亲文化程度",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "maInfoVO.zy",
+      "Id": "jbxx_ma_zy",
+      "Label": "母亲职业",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "maInfoVO.dw",
+      "Id": "jbxx_ma_dw",
+      "Label": "母亲工作单位",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Type": "text",
+      "Name": "maInfoVO.zw",
+      "Id": "jbxx_ma_zw",
+      "Label": "母亲职务",
+      "Children": []
+    }
+  ]
+}
