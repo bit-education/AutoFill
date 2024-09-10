@@ -1,0 +1,1563 @@
+{
+  "data": [
+    {
+      "Tag": "input",
+      "Id": "first",
+      "Type": "text",
+      "Name": "first",
+      "Label": "First (Given)",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "middle",
+      "Type": "text",
+      "Name": "middle",
+      "Label": "Middle",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "last",
+      "Type": "text",
+      "Name": "last",
+      "Label": "Last (Family)",
+      "Child": []
+    },
+    {
+      "Tag": "select",
+      "Id": "suffix",
+      "Type": "",
+      "Name": "suffix",
+      "Label": "Suffix",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "suffix",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Jr.",
+          "Name": "suffix",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Sr.",
+          "Name": "suffix",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "I",
+          "Name": "suffix",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "II",
+          "Name": "suffix",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "input",
+      "Id": "preferred",
+      "Type": "text",
+      "Name": "preferred",
+      "Label": "Preferred First",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "alias",
+      "Type": "text",
+      "Name": "alias",
+      "Label": "Other Last Names Used",
+      "Child": []
+    },
+    {
+      "Tag": "select",
+      "Id": "address__0__country",
+      "Type": "",
+      "Name": "address__0__country",
+      "Label": "Country",
+      "Child": []
+    },
+    {
+      "Tag": "textarea",
+      "Id": "address__0__street",
+      "Type": "",
+      "Name": "address__0__street",
+      "Label": "Street Address",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "address__0__city",
+      "Type": "text",
+      "Name": "address__0__city",
+      "Label": "City",
+      "Child": []
+    },
+    {
+      "Tag": "select",
+      "Id": "address__0__region",
+      "Type": "",
+      "Name": "address__0__region",
+      "Label": "Region",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "address__0__postal",
+      "Type": "text",
+      "Name": "address__0__postal",
+      "Label": "Postal Code",
+      "Child": []
+    },
+    {
+      "Tag": "select",
+      "Id": "address__0__effective_m",
+      "Type": "",
+      "Name": "address__0__effective_m",
+      "Label": "Valid From",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "January",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "February",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "March",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "April",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address__0__effective_d",
+      "Type": "",
+      "Name": "address__0__effective_d",
+      "Label": "Valid From",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "1",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "3",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "4",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address__0__effective_y",
+      "Type": "",
+      "Name": "address__0__effective_y",
+      "Label": "Valid From",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2024",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2025",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2026",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address__0__expires_m",
+      "Type": "",
+      "Name": "address__0__expires_m",
+      "Label": "Valid Until",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "January",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "February",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "March",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "April",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address__0__expires_d",
+      "Type": "",
+      "Name": "address__0__expires_d",
+      "Label": "Valid Until",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "1",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "3",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "4",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address__0__expires_y",
+      "Type": "",
+      "Name": "address__0__expires_y",
+      "Label": "Valid Until",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2024",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2025",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2026",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_1_country",
+      "Type": "",
+      "Name": "address_1_country",
+      "Label": "Country",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Afghanistan",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Aland Islands",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Albania",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Algeria",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "textarea",
+      "Id": "address_1_street",
+      "Type": "",
+      "Name": "address_1_street",
+      "Label": "Street Address",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "address_1_city",
+      "Type": "text",
+      "Name": "address_1_city",
+      "Label": "City",
+      "Child": []
+    },
+    {
+      "Tag": "select",
+      "Id": "address_1_region",
+      "Type": "",
+      "Name": "address_1_region",
+      "Label": "Region",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "address_1_postal",
+      "Type": "text",
+      "Name": "address_1_postal",
+      "Label": "Postal Code",
+      "Child": []
+    },
+    {
+      "Tag": "select",
+      "Id": "address_1_effective_m",
+      "Type": "",
+      "Name": "address_1_effective_m",
+      "Label": "Valid From",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "January",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "February",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "March",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "April",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_1_effective_d",
+      "Type": "",
+      "Name": "address_1_effective_d",
+      "Label": "Valid From",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "1",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "3",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "4",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_1_effective_y",
+      "Type": "",
+      "Name": "address_1_effective_y",
+      "Label": "Valid From",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2024",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2025",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2026",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_1_expires_m",
+      "Type": "",
+      "Name": "address_1_expires_m",
+      "Label": "Valid Until",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "January",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "February",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "March",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "April",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_1_expires_d",
+      "Type": "",
+      "Name": "address_1_expires_d",
+      "Label": "Valid Until",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "1",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "3",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "4",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_1_expires_y",
+      "Type": "",
+      "Name": "address_1_expires_y",
+      "Label": "Valid Until",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2024",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2025",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2026",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_2_country",
+      "Type": "",
+      "Name": "address_2_country",
+      "Label": "Country",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Afghanistan",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Aland Islands",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Albania",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Algeria",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "textarea",
+      "Id": "address_2_street",
+      "Type": "",
+      "Name": "address_2_street",
+      "Label": "Street Address",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "address_2_city",
+      "Type": "text",
+      "Name": "address_2_city",
+      "Label": "City",
+      "Child": []
+    },
+    {
+      "Tag": "select",
+      "Id": "address_2_region",
+      "Type": "",
+      "Name": "address_2_region",
+      "Label": "Region",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "address_2_postal",
+      "Type": "text",
+      "Name": "address_2_postal",
+      "Label": "Postal Code",
+      "Child": []
+    },
+    {
+      "Tag": "select",
+      "Id": "address_2_effective_m",
+      "Type": "",
+      "Name": "address_2_effective_m",
+      "Label": "Valid From",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "January",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "February",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "March",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "April",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_2_effective_d",
+      "Type": "",
+      "Name": "address_2_effective_d",
+      "Label": "Valid From",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "1",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "3",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "4",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_2_effective_y",
+      "Type": "",
+      "Name": "address_2_effective_y",
+      "Label": "Valid From",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2024",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2025",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2026",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_2_expires_m",
+      "Type": "",
+      "Name": "address_2_expires_m",
+      "Label": "Valid Until",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "January",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "February",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "March",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "April",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_2_expires_d",
+      "Type": "",
+      "Name": "address_2_expires_d",
+      "Label": "Valid Until",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "1",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "3",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "4",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "address_2_expires_y",
+      "Type": "",
+      "Name": "address_2_expires_y",
+      "Label": "Valid Until",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2024",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2025",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2026",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "input",
+      "Id": "phone",
+      "Type": "tel",
+      "Name": "phone",
+      "Label": "Daytime",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "business",
+      "Type": "tel",
+      "Name": "business",
+      "Label": "Evening",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "mobile",
+      "Type": "tel",
+      "Name": "mobile",
+      "Label": "Mobile",
+      "Child": []
+    },
+    {
+      "Tag": "select",
+      "Id": "gender",
+      "Type": "",
+      "Name": "gender",
+      "Label": "Gender",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Female",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Male",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "More Options",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "input",
+      "Id": "gender_free_text",
+      "Type": "text",
+      "Name": "gender_free_text",
+      "Label": "Please specify:",
+      "Child": []
+    },
+    {
+      "Tag": "select",
+      "Id": "birthdate_m",
+      "Type": "",
+      "Name": "birthdate_m",
+      "Label": "Birthdate",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "January",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "February",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "March",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "April",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "birthdate_d",
+      "Type": "",
+      "Name": "birthdate_d",
+      "Label": "Birthdate",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "1",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "3",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "4",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "birthdate_y",
+      "Type": "",
+      "Name": "birthdate_y",
+      "Label": "Birthdate",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2024",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2023",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2022",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "2021",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "citizenship1",
+      "Type": "",
+      "Name": "citizenship1",
+      "Label": "Primary Citizenship",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "United States",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Afghanistan",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Aland Islands",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Albania",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "select",
+      "Id": "citizenship2",
+      "Type": "",
+      "Name": "citizenship2",
+      "Label": "Dual Citizenship",
+      "Child": [
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "United States",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Afghanistan",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Aland Islands",
+          "Name": "",
+          "Child": []
+        },
+        {
+          "Tag": "option",
+          "Id": "",
+          "Type": "",
+          "Label": "Albania",
+          "Name": "",
+          "Child": []
+        }
+      ]
+    },
+    {
+      "Tag": "input",
+      "Id": "resident",
+      "Type": "checkbox",
+      "Name": "resident",
+      "Label": "Residency Status",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "ssn",
+      "Type": "text",
+      "Name": "ssn",
+      "Label": "Social Security Number",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "tribal_affiliation",
+      "Type": "text",
+      "Name": "tribal_affiliation",
+      "Label": "Tribal Affiliation",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "hispanic_1",
+      "Type": "checkbox",
+      "Name": "hispanic",
+      "Label": "Yes",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "hispanic_0",
+      "Type": "checkbox",
+      "Name": "hispanic",
+      "Label": "No",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "hispanicOrigin_1",
+      "Type": "checkbox",
+      "Name": "hispanicOrigin",
+      "Label": "Central America",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "hispanicOrigin_2",
+      "Type": "checkbox",
+      "Name": "hispanicOrigin",
+      "Label": "Cuba",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "hispanicOrigin_3",
+      "Type": "checkbox",
+      "Name": "hispanicOrigin",
+      "Label": "Mexico",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "hispanicOrigin_4",
+      "Type": "checkbox",
+      "Name": "hispanicOrigin",
+      "Label": "Puerto Rico",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "hispanicOrigin_5",
+      "Type": "checkbox",
+      "Name": "hispanicOrigin",
+      "Label": "South America",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "hispanicOrigin_6",
+      "Type": "checkbox",
+      "Name": "hispanicOrigin",
+      "Label": "Spain",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "hispanicOrigin_other",
+      "Type": "checkbox",
+      "Name": "hispanicOrigin",
+      "Label": "Other",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "hispanicOther",
+      "Type": "text",
+      "Name": "hispanicOther",
+      "Label": "Other",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "race_adfcfcb5-5394-4fca-991f-2e460e924fee",
+      "Type": "checkbox",
+      "Name": "race",
+      "Label": "American Indian or Alaska Native",
+      "Child": []
+    },
+    {
+      "Tag": "input",
+      "Id": "race_5c5b0b7a-73a6-4797-8"
+    }
+  ]
+}
