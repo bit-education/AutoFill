@@ -98,8 +98,8 @@ def html_parser_textarea(soup):
     return textarea_fields
 
 
-# TODO:利用AI解析的结果和bs解析的结果,匹配生成最终的解析结果
-def merge_result(bs_path, ai_path):
+# 利用AI解析的结果和bs解析的结果,匹配生成最终的解析结果
+def merge_result(bs_path, ai_path, result_path):
     with open(bs_path, 'r') as f:
         bs_result = json.load(f)
     with open(ai_path, 'r') as f:
@@ -144,11 +144,16 @@ def merge_result(bs_path, ai_path):
                 textarea_field['Children'] = ai_field['Children']
                 textarea_field['Label'] = ai_field['Label']
 
-    with open('result/final/yale_final_result.json', 'w') as f:
+    # TODO:去除重复项
+
+
+    with open(result_path, 'w') as f:
         json.dump(bs_result, f, indent=4)
 
 
 if __name__ == '__main__':
     # with open("bs_result.json", "w") as f:
     #     json.dump(html_parser(local_html), f)
-    merge_result("result/bs_result.json", "result/yale_result.json")
+    merge_result("result/yale_bs_result.json",
+                 "result/yale_stream_result.json",
+                 "result/final/yale_final_result.json")
