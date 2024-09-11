@@ -99,35 +99,56 @@ def html_parser_textarea(soup):
 
 
 # TODO:利用AI解析的结果和bs解析的结果,匹配生成最终的解析结果
-def merge_result():
-    with open('result/bs_result.json', 'r') as f:
+def merge_result(bs_path, ai_path):
+    with open(bs_path, 'r') as f:
         bs_result = json.load(f)
-    with open('result/yale_result.json', 'r') as f:
+    with open(ai_path, 'r') as f:
         ai_result = json.load(f)
+    # 提取AI解析的所有结果
+    all_ai_result = {'input': [], 'select': [], 'textarea': []}
 
+    # 递归遍历所有子节点,直至找到含有input、select、datalist和textarea tag的元素
+    def find_field_all_result(field):
+        if field['Tag'] == 'input':
+            all_ai_result['input'].append(field)
+            return
+        elif field['Tag'] == 'select' or field['Tag'] == 'datalist':
+            all_ai_result['select'].append(field)
+            return
+        elif field['Tag'] == 'textarea':
+            all_ai_result['textarea'].append(field)
+            return
+        else:
+            for child in field['Children']:
+                find_field_all_result(child)
+
+    for ai in ai_result['data']:
+        find_field_all_result(ai)
+
+    # 将AI解析的结果与bs解析的结果进行匹配
     for input_field in bs_result['input']:
-        for ai_field in ai_result['data']:
-            if input_field['Id'] == ai_field['id'] and ai_field['tag'] == 'input':
+        for ai_field in all_ai_result['input']:
+            if input_field['Id'] == ai_field['Id'] and ai_field['Tag'] == 'input':
                 input_field['Children'] = ai_field['Children']
                 input_field['Label'] = ai_field['Label']
 
     for select_field in bs_result['select']:
-        for ai_field in ai_result['data']:
-            if select_field['Id'] == ai_field['id'] and ai_field['tag'] == 'select':
+        for ai_field in all_ai_result['select']:
+            if select_field['Id'] == ai_field['Id'] and ai_field['Tag'] == 'select':
                 select_field['Children'] = ai_field['Children']
                 select_field['Label'] = ai_field['Label']
 
     for textarea_field in bs_result['textarea']:
-        for ai_field in ai_result['data']:
-            if textarea_field['Id'] == ai_field['id'] and ai_field['tag'] == 'textarea':
+        for ai_field in all_ai_result['textarea']:
+            if textarea_field['Id'] == ai_field['Id'] and ai_field['Tag'] == 'textarea':
                 textarea_field['Children'] = ai_field['Children']
                 textarea_field['Label'] = ai_field['Label']
 
-    with open('final_result.json', 'w') as f:
+    with open('result/final/yale_final_result.json', 'w') as f:
         json.dump(bs_result, f, indent=4)
 
 
 if __name__ == '__main__':
     # with open("bs_result.json", "w") as f:
     #     json.dump(html_parser(local_html), f)
-    merge_result()
+    merge_result("result/bs_result.json", "result/yale_result.json")
