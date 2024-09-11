@@ -26,6 +26,7 @@
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "suffix",
       "Id": "suffix",
       "Label": "Suffix",
@@ -52,7 +53,7 @@
       "Type": "hidden",
       "Name": "address__0__id",
       "Id": null,
-      "Label": null,
+      "Label": "New Address",
       "Children": []
     },
     {
@@ -60,11 +61,12 @@
       "Type": "hidden",
       "Name": "address__0__delete",
       "Id": null,
-      "Label": null,
+      "Label": "New Address",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address__0__country",
       "Id": "address__0__country",
       "Label": "Country",
@@ -75,7 +77,7 @@
       "Type": "hidden",
       "Name": "address__0__lat",
       "Id": "address__0__lat",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -83,7 +85,7 @@
       "Type": "hidden",
       "Name": "address__0__lng",
       "Id": "address__0__lng",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -91,7 +93,7 @@
       "Type": "hidden",
       "Name": "address__0__quality",
       "Id": "address__0__quality",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -99,7 +101,7 @@
       "Type": "hidden",
       "Name": "address__0__dirty",
       "Id": "address__0__dirty",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -107,19 +109,20 @@
       "Type": "hidden",
       "Name": "address__0__override",
       "Id": "address__0__override",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
       "Tag": "input",
       "Type": "hidden",
-      "Name": null,
+      "Name": "address__0__region_static",
       "Id": "address__0__region_static",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
       "Tag": "textarea",
+      "Type": null,
       "Name": "address__0__street",
       "Id": "address__0__street",
       "Label": "Street Address",
@@ -135,6 +138,7 @@
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address__0__region",
       "Id": "address__0__region",
       "Label": "Region",
@@ -150,6 +154,7 @@
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address__0__type",
       "Id": null,
       "Label": "Address Type",
@@ -160,49 +165,55 @@
       "Type": "hidden",
       "Name": "address__0__priority",
       "Id": null,
-      "Label": null,
+      "Label": "Address Type",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address__0__effective_m",
       "Id": "address__0__effective_m",
-      "Label": "Valid From (optional)",
+      "Label": "Valid From optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address__0__effective_d",
       "Id": "address__0__effective_d",
-      "Label": null,
+      "Label": "Valid From optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address__0__effective_y",
       "Id": "address__0__effective_y",
-      "Label": null,
+      "Label": "Valid From optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address__0__expires_m",
       "Id": "address__0__expires_m",
-      "Label": "Valid Until (optional)",
+      "Label": "Valid Until optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address__0__expires_d",
       "Id": "address__0__expires_d",
-      "Label": null,
+      "Label": "Valid Until optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address__0__expires_y",
       "Id": "address__0__expires_y",
-      "Label": null,
+      "Label": "Valid Until optional",
       "Children": []
     },
     {
@@ -210,7 +221,7 @@
       "Type": "hidden",
       "Name": "address_1_id",
       "Id": null,
-      "Label": null,
+      "Label": "Permanent Address",
       "Children": []
     },
     {
@@ -218,11 +229,12 @@
       "Type": "hidden",
       "Name": "address_1_delete",
       "Id": null,
-      "Label": null,
+      "Label": "Permanent Address",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_1_country",
       "Id": "address_1_country",
       "Label": "Country",
@@ -233,7 +245,7 @@
       "Type": "hidden",
       "Name": "address_1_lat",
       "Id": "address_1_lat",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -241,7 +253,7 @@
       "Type": "hidden",
       "Name": "address_1_lng",
       "Id": "address_1_lng",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -249,7 +261,7 @@
       "Type": "hidden",
       "Name": "address_1_quality",
       "Id": "address_1_quality",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -257,7 +269,7 @@
       "Type": "hidden",
       "Name": "address_1_dirty",
       "Id": "address_1_dirty",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -265,19 +277,20 @@
       "Type": "hidden",
       "Name": "address_1_override",
       "Id": "address_1_override",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
       "Tag": "input",
       "Type": "hidden",
-      "Name": null,
-      "Id": "address_1_region_static",
-      "Label": null,
+      "Name": "address_1_region_static",
+      "Id": null,
+      "Label": "Country",
       "Children": []
     },
     {
       "Tag": "textarea",
+      "Type": null,
       "Name": "address_1_street",
       "Id": "address_1_street",
       "Label": "Street Address",
@@ -293,6 +306,7 @@
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_1_region",
       "Id": "address_1_region",
       "Label": "Region",
@@ -308,6 +322,7 @@
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_1_type",
       "Id": null,
       "Label": "Address Type",
@@ -318,49 +333,55 @@
       "Type": "hidden",
       "Name": "address_1_priority",
       "Id": null,
-      "Label": null,
+      "Label": "Address Type",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_1_effective_m",
       "Id": "address_1_effective_m",
-      "Label": "Valid From (optional)",
+      "Label": "Valid From optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_1_effective_d",
       "Id": "address_1_effective_d",
-      "Label": null,
+      "Label": "Valid From optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_1_effective_y",
       "Id": "address_1_effective_y",
-      "Label": null,
+      "Label": "Valid From optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_1_expires_m",
       "Id": "address_1_expires_m",
-      "Label": "Valid Until (optional)",
+      "Label": "Valid Until optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_1_expires_d",
       "Id": "address_1_expires_d",
-      "Label": null,
+      "Label": "Valid Until optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_1_expires_y",
       "Id": "address_1_expires_y",
-      "Label": null,
+      "Label": "Valid Until optional",
       "Children": []
     },
     {
@@ -368,7 +389,7 @@
       "Type": "hidden",
       "Name": "address_2_id",
       "Id": null,
-      "Label": null,
+      "Label": "Mailing Address",
       "Children": []
     },
     {
@@ -376,11 +397,12 @@
       "Type": "hidden",
       "Name": "address_2_delete",
       "Id": null,
-      "Label": null,
+      "Label": "Mailing Address",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_2_country",
       "Id": "address_2_country",
       "Label": "Country",
@@ -391,7 +413,7 @@
       "Type": "hidden",
       "Name": "address_2_lat",
       "Id": "address_2_lat",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -399,7 +421,7 @@
       "Type": "hidden",
       "Name": "address_2_lng",
       "Id": "address_2_lng",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -407,7 +429,7 @@
       "Type": "hidden",
       "Name": "address_2_quality",
       "Id": "address_2_quality",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -415,7 +437,7 @@
       "Type": "hidden",
       "Name": "address_2_dirty",
       "Id": "address_2_dirty",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
@@ -423,19 +445,20 @@
       "Type": "hidden",
       "Name": "address_2_override",
       "Id": "address_2_override",
-      "Label": null,
+      "Label": "Country",
       "Children": []
     },
     {
       "Tag": "input",
       "Type": "hidden",
-      "Name": null,
-      "Id": "address_2_region_static",
-      "Label": null,
+      "Name": "address_2_region_static",
+      "Id": null,
+      "Label": "Country",
       "Children": []
     },
     {
       "Tag": "textarea",
+      "Type": null,
       "Name": "address_2_street",
       "Id": "address_2_street",
       "Label": "Street Address",
@@ -451,6 +474,7 @@
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_2_region",
       "Id": "address_2_region",
       "Label": "Region",
@@ -466,6 +490,7 @@
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_2_type",
       "Id": null,
       "Label": "Address Type",
@@ -476,49 +501,55 @@
       "Type": "hidden",
       "Name": "address_2_priority",
       "Id": null,
-      "Label": null,
+      "Label": "Address Type",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_2_effective_m",
       "Id": "address_2_effective_m",
-      "Label": "Valid From (optional)",
+      "Label": "Valid From optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_2_effective_d",
       "Id": "address_2_effective_d",
-      "Label": null,
+      "Label": "Valid From optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_2_effective_y",
       "Id": "address_2_effective_y",
-      "Label": null,
+      "Label": "Valid From optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_2_expires_m",
       "Id": "address_2_expires_m",
-      "Label": "Valid Until (optional)",
+      "Label": "Valid Until optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_2_expires_d",
       "Id": "address_2_expires_d",
-      "Label": null,
+      "Label": "Valid Until optional",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "address_2_expires_y",
       "Id": "address_2_expires_y",
-      "Label": null,
+      "Label": "Valid Until optional",
       "Children": []
     },
     {
@@ -547,21 +578,24 @@
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "gender",
       "Id": "gender",
       "Label": "Gender",
-      "Children": []
-    },
-    {
-      "Tag": "input",
-      "Type": "text",
-      "Name": "gender_free_text",
-      "Id": "gender_free_text",
-      "Label": "Please specify:",
-      "Children": []
+      "Children": [
+        {
+          "Tag": "input",
+          "Type": "text",
+          "Name": "gender_free_text",
+          "Id": "gender_free_text",
+          "Label": "Please specify:",
+          "Children": []
+        }
+      ]
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "birthdate_m",
       "Id": "birthdate_m",
       "Label": "Birthdate",
@@ -569,20 +603,23 @@
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "birthdate_d",
       "Id": "birthdate_d",
-      "Label": null,
+      "Label": "Birthdate",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "birthdate_y",
       "Id": "birthdate_y",
-      "Label": null,
+      "Label": "Birthdate",
       "Children": []
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "citizenship1",
       "Id": "citizenship1",
       "Label": "Primary Citizenship",
@@ -590,6 +627,7 @@
     },
     {
       "Tag": "select",
+      "Type": null,
       "Name": "citizenship2",
       "Id": "citizenship2",
       "Label": "Dual Citizenship",
@@ -600,24 +638,15 @@
       "Type": "checkbox",
       "Name": "resident",
       "Id": "resident",
-      "Label": "Residency Status",
-      "Children": [
-        {
-          "Tag": "label",
-          "Type": null,
-          "Name": null,
-          "Id": null,
-          "Label": "U.S. Permanent Resident",
-          "Children": []
-        }
-      ]
+      "Label": "Residency Status U.S. Permanent Resident",
+      "Children": []
     },
     {
       "Tag": "input",
       "Type": "text",
       "Name": "ssn",
       "Id": "ssn",
-      "Label": "Social Security Number (omit dashes)",
+      "Label": "Social Security Number (omit dashes) Privacy Protection Policy We are committed to protecting your privacy. Upon receiving the secure transmission of your Social Security Number, it is immediately encrypted. Only the last 4 digits of your Social Security Number are available in plaintext for identification and account matching purposes. Your Social Security Number is available for decryption only by those officials who oversee the automated loading of personal information into student information systems, and only for that limited purpose. Our databases are actively monitored and are firewalled to ensure the protection of your personal information, and we employ all industry-standard safeguards.",
       "Children": []
     },
     {
@@ -625,71 +654,72 @@
       "Type": "checkbox",
       "Name": "hispanic",
       "Id": "hispanic_1",
-      "Label": "Yes",
-      "Children": []
-    },
-    {
-      "Tag": "input",
-      "Type": "checkbox",
-      "Name": "hispanicOrigin",
-      "Id": "hispanicOrigin_1",
-      "Label": "Central America",
-      "Children": []
-    },
-    {
-      "Tag": "input",
-      "Type": "checkbox",
-      "Name": "hispanicOrigin",
-      "Id": "hispanicOrigin_2",
-      "Label": "Cuba",
-      "Children": []
-    },
-    {
-      "Tag": "input",
-      "Type": "checkbox",
-      "Name": "hispanicOrigin",
-      "Id": "hispanicOrigin_3",
-      "Label": "Mexico",
-      "Children": []
-    },
-    {
-      "Tag": "input",
-      "Type": "checkbox",
-      "Name": "hispanicOrigin",
-      "Id": "hispanicOrigin_4",
-      "Label": "Puerto Rico",
-      "Children": []
-    },
-    {
-      "Tag": "input",
-      "Type": "checkbox",
-      "Name": "hispanicOrigin",
-      "Id": "hispanicOrigin_5",
-      "Label": "South America",
-      "Children": []
-    },
-    {
-      "Tag": "input",
-      "Type": "checkbox",
-      "Name": "hispanicOrigin",
-      "Id": "hispanicOrigin_6",
-      "Label": "Spain",
-      "Children": []
-    },
-    {
-      "Tag": "input",
-      "Type": "checkbox",
-      "Name": "hispanicOrigin",
-      "Id": "hispanicOrigin_other",
-      "Label": "Other",
+      "Label": "Are you Hispanic or Latino? These questions are optional, and your responses will not be part of your admissions review: Are you Hispanic or Latino? Yes",
       "Children": [
         {
           "Tag": "input",
-          "Type": "text",
-          "Name": "hispanicOther",
-          "Id": "hispanicOther",
-          "Label": null,
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_1",
+          "Label": "Central America",
           "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_2",
+          "Label": "Cuba",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_3",
+          "Label": "Mexico",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_4",
+          "Label": "Puerto Rico",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_5",
+          "Label": "South America",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_6",
+          "Label": "Spain",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_other",
+          "Label": "Other",
+          "Children": [
+            {
+              "Tag": "input",
+              "Type": "text",
+              "Name": "hispanicOther",
+              "Id": "hispanicOther",
+              "Label": "",
+              "Children": []
+            }
+          ]
         }
       ]
     },
@@ -894,14 +924,6 @@
       "Name": "tribal_affiliation",
       "Id": "tribal_affiliation",
       "Label": "Tribal Affiliation",
-      "Children": []
-    },
-    {
-      "Tag": "input",
-      "Type": "hidden",
-      "Name": "dirty",
-      "Id": null,
-      "Label": null,
       "Children": []
     }
   ]
