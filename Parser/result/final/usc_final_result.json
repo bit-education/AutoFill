@@ -1,0 +1,141 @@
+{
+  "input": [
+    {
+      "Tag": "input",
+      "Name": "title",
+      "Id": "title",
+      "Type": "text",
+      "Required": null,
+      "Children": [],
+      "Label": "Title"
+    },
+    {
+      "Tag": "input",
+      "Name": "firstName",
+      "Id": "firstName",
+      "Type": "text",
+      "Required": "required",
+      "Children": [],
+      "Label": "Legal First Name *"
+    },
+    {
+      "Tag": "input",
+      "Name": "middleInitial",
+      "Id": "middleInitial",
+      "Type": "text",
+      "Required": null,
+      "Children": [],
+      "Label": "Middle Name"
+    },
+    {
+      "Tag": "input",
+      "Name": "lastName",
+      "Id": "lastName",
+      "Type": "text",
+      "Required": "required",
+      "Children": [],
+      "Label": "Last or Family Name *"
+    },
+    {
+      "Tag": "input",
+      "Name": "suffix",
+      "Id": "suffix",
+      "Type": "text",
+      "Required": null,
+      "Children": [],
+      "Label": "Suffix (Jr., Sr., III, etc.)"
+    },
+    {
+      "Tag": "input",
+      "Name": "email",
+      "Id": "email",
+      "Type": "email",
+      "Required": "required",
+      "Children": [],
+      "Label": "Email Address *"
+    },
+    {
+      "Tag": "input",
+      "Name": "emailConfirm",
+      "Id": "emailConfirm",
+      "Type": "email",
+      "Required": "required",
+      "Children": [],
+      "Label": "Confirm Email Address *"
+    },
+    {
+      "Tag": "input",
+      "Name": "prefPhone",
+      "Id": "cas-reapp-contact-information-pref-phone-number",
+      "Type": "tel",
+      "Required": "required",
+      "Children": [],
+      "Label": "Preferred Phone Number *"
+    },
+    {
+      "Tag": "input",
+      "Name": "altPhone",
+      "Id": "cas-reapp-contact-information-alternate-phone-number",
+      "Type": "tel",
+      "Required": null,
+      "Children": [],
+      "Label": "Alternate Phone Number"
+    },
+    {
+      "Tag": "input",
+      "Name": "textAuthorization",
+      "Id": "profile-user-account-contactInfo-textAuthorization_checkBox",
+      "Type": "checkbox",
+      "Required": null,
+      "Children": [],
+      "Label": "I agree to the Terms of Service and to receive calls and/or texts at any phone number I have provided or may provide in the future, including any wireless number, from any entity associated with my application process, including but not limited to my designated schools and programs, the Liaison International support team, the association or institution for this Centralized Application Service."
+    },
+    {
+      "Tag": "input",
+      "Name": "uname",
+      "Id": "uname",
+      "Type": "text",
+      "Required": "required",
+      "Children": [],
+      "Label": "Username *"
+    },
+    {
+      "Tag": "input",
+      "Name": "password",
+      "Id": "newUserAccount-userNameAndPwd-password",
+      "Type": "password",
+      "Required": null,
+      "Children": [],
+      "Label": "Password"
+    },
+    {
+      "Tag": "input",
+      "Name": "confirmPassword",
+      "Id": "newUserAccount-userNameAndPwd-confirmPassword",
+      "Type": "password",
+      "Required": null,
+      "Children": [],
+      "Label": "Confirm Password *"
+    },
+    {
+      "Tag": "input",
+      "Name": "cas-program-questions-1989082",
+      "Id": "cas-program-questions-1989082-22795707_radio",
+      "Type": "radio",
+      "Required": "required",
+      "Children": [],
+      "Label": "Yes"
+    },
+    {
+      "Tag": "input",
+      "Name": "cas-program-questions-1989082",
+      "Id": "cas-program-questions-1989082-22795708_radio",
+      "Type": "radio",
+      "Required": "required",
+      "Children": [],
+      "Label": "No"
+    }
+  ],
+  "select": [],
+  "textarea": []
+}

@@ -1,0 +1,225 @@
+{
+  "input": [
+    {
+      "Tag": "input",
+      "Name": "title",
+      "Id": "title",
+      "Type": "text",
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "firstName",
+      "Id": "firstName",
+      "Type": "text",
+      "Required": "required",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "middleInitial",
+      "Id": "middleInitial",
+      "Type": "text",
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "lastName",
+      "Id": "lastName",
+      "Type": "text",
+      "Required": "required",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "suffix",
+      "Id": "suffix",
+      "Type": "text",
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "email",
+      "Id": "email",
+      "Type": "email",
+      "Required": "required",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "emailConfirm",
+      "Id": "emailConfirm",
+      "Type": "email",
+      "Required": "required",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": null,
+      "Id": null,
+      "Type": "text",
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "prefPhone",
+      "Id": "cas-reapp-contact-information-pref-phone-number",
+      "Type": "tel",
+      "Required": "required",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": null,
+      "Id": null,
+      "Type": "text",
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "altPhone",
+      "Id": "cas-reapp-contact-information-alternate-phone-number",
+      "Type": "tel",
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "textAuthorization",
+      "Id": "profile-user-account-contactInfo-textAuthorization_checkBox",
+      "Type": "checkbox",
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "uname",
+      "Id": "uname",
+      "Type": "text",
+      "Required": "required",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "password",
+      "Id": "newUserAccount-userNameAndPwd-password",
+      "Type": "password",
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "confirmPassword",
+      "Id": "newUserAccount-userNameAndPwd-confirmPassword",
+      "Type": "password",
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "cas-program-questions-1989082",
+      "Id": "cas-program-questions-1989082-22795707_radio",
+      "Type": "radio",
+      "Required": "required",
+      "Children": []
+    },
+    {
+      "Tag": "input",
+      "Name": "cas-program-questions-1989082",
+      "Id": "cas-program-questions-1989082-22795708_radio",
+      "Type": "radio",
+      "Required": "required",
+      "Children": []
+    }
+  ],
+  "select": [
+    {
+      "Tag": "select",
+      "Name": null,
+      "Id": null,
+      "Disabled": null,
+      "Options": [
+        {
+          "Value": "number:4792",
+          "Text": "Home"
+        },
+        {
+          "Value": "number:4794",
+          "Text": "Work"
+        },
+        {
+          "Value": "number:4795",
+          "Text": "School"
+        }
+      ],
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Name": null,
+      "Id": null,
+      "Disabled": null,
+      "Options": [
+        {
+          "Value": "",
+          "Text": "Type"
+        },
+        {
+          "Value": "number:4147",
+          "Text": "Home"
+        },
+        {
+          "Value": "number:4148",
+          "Text": "Mobile"
+        },
+        {
+          "Value": "number:4149",
+          "Text": "Work"
+        },
+        {
+          "Value": "number:4150",
+          "Text": "School"
+        }
+      ],
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Name": null,
+      "Id": null,
+      "Disabled": null,
+      "Options": [
+        {
+          "Value": "",
+          "Text": "Type"
+        },
+        {
+          "Value": "number:4147",
+          "Text": "Home"
+        },
+        {
+          "Value": "number:4148",
+          "Text": "Mobile"
+        },
+        {
+          "Value": "number:4149",
+          "Text": "Work"
+        },
+        {
+          "Value": "number:4150",
+          "Text": "School"
+        }
+      ],
+      "Required": null,
+      "Children": []
+    }
+  ],
+  "textarea": []
+}

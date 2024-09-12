@@ -1,0 +1,687 @@
+[
+  {
+    "data": [
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "first",
+        "Id": "first",
+        "Label": "First (Given)",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "middle",
+        "Id": "middle",
+        "Label": "Middle",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "last",
+        "Id": "last",
+        "Label": "Last (Family)",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "suffix",
+        "Id": "suffix",
+        "Label": "Suffix Jr., Sr.",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "preferred",
+        "Id": "preferred",
+        "Label": "Preferred First",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "alias",
+        "Id": "alias",
+        "Label": "Other Last Names Used",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address__0__country",
+        "Id": "address__0__country",
+        "Label": "Country",
+        "Children": []
+      },
+      {
+        "Tag": "textarea",
+        "Name": "address__0__street",
+        "Id": "address__0__street",
+        "Label": "Street Address",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "address__0__city",
+        "Id": "address__0__city",
+        "Label": "City",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address__0__region",
+        "Id": "address__0__region",
+        "Label": "Region",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "address__0__postal",
+        "Id": "address__0__postal",
+        "Label": "Postal Code",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address__0__type",
+        "Id": "",
+        "Label": "Address Type Mailing Address, Permanent Address",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address__0__effective_m",
+        "Id": "address__0__effective_m",
+        "Label": "Valid From optional January, February",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address__0__effective_d",
+        "Id": "address__0__effective_d",
+        "Label": "Valid From optional 1, 2",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address__0__effective_y",
+        "Id": "address__0__effective_y",
+        "Label": "Valid From optional 2024, 2025",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address__0__expires_m",
+        "Id": "address__0__expires_m",
+        "Label": "Valid Until optional January, February",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address__0__expires_d",
+        "Id": "address__0__expires_d",
+        "Label": "Valid Until optional 1, 2",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address__0__expires_y",
+        "Id": "address__0__expires_y",
+        "Label": "Valid Until optional 2024, 2025",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_1_country",
+        "Id": "address_1_country",
+        "Label": "Country Afghanistan, Aland Islands",
+        "Children": []
+      },
+      {
+        "Tag": "textarea",
+        "Name": "address_1_street",
+        "Id": "address_1_street",
+        "Label": "Street Address",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "address_1_city",
+        "Id": "address_1_city",
+        "Label": "City",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_1_region",
+        "Id": "address_1_region",
+        "Label": "Region",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "address_1_postal",
+        "Id": "address_1_postal",
+        "Label": "Postal Code",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_country",
+        "Id": "address_2_country",
+        "Label": "Country Afghanistan, Aland Islands",
+        "Children": []
+      },
+      {
+        "Tag": "textarea",
+        "Name": "address_2_street",
+        "Id": "address_2_street",
+        "Label": "Street Address",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "address_2_city",
+        "Id": "address_2_city",
+        "Label": "City",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_region",
+        "Id": "address_2_region",
+        "Label": "Region",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "address_2_postal",
+        "Id": "address_2_postal",
+        "Label": "Postal Code",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_type",
+        "Id": "",
+        "Label": "Address Type Mailing Address, Permanent Address",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_effective_m",
+        "Id": "address_2_effective_m",
+        "Label": "Valid From optional January, February",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_effective_d",
+        "Id": "address_2_effective_d",
+        "Label": "Valid From optional 1, 2",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_effective_y",
+        "Id": "address_2_effective_y",
+        "Label": "Valid From optional 2024, 2025",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_expires_m",
+        "Id": "address_2_expires_m",
+        "Label": "Valid Until optional January, February",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_expires_d",
+        "Id": "address_2_expires_d",
+        "Label": "Valid Until optional 1, 2",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_expires_y",
+        "Id": "address_2_expires_y",
+        "Label": "Valid Until optional 2024, 2025",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "tel",
+        "Name": "phone",
+        "Id": "phone",
+        "Label": "Daytime",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "tel",
+        "Name": "business",
+        "Id": "business",
+        "Label": "Evening",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "tel",
+        "Name": "mobile",
+        "Id": "mobile",
+        "Label": "Mobile",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "gender",
+        "Id": "gender",
+        "Label": "Gender Female, Male",
+        "Children": [
+          {
+            "Tag": "input",
+            "Type": "text",
+            "Name": "gender_free_text",
+            "Id": "gender_free_text",
+            "Label": "Please specify:",
+            "Children": []
+          }
+        ]
+      },
+      {
+        "Tag": "select",
+        "Name": "birthdate_m",
+        "Id": "birthdate_m",
+        "Label": "Birthdate January, February",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "birthdate_d",
+        "Id": "birthdate_d",
+        "Label": "Birthdate 1, 2",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "birthdate_y",
+        "Id": "birthdate_y",
+        "Label": "Birthdate 2024, 2023",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "citizenship1",
+        "Id": "citizenship1",
+        "Label": "Primary Citizenship United States, Afghanistan",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "citizenship2",
+        "Id": "citizenship2",
+        "Label": "Dual Citizenship United States, Afghanistan",
+        "Children": []
+      }
+    ]
+  },
+  {
+    "data": [
+      {
+        "Tag": "textarea",
+        "Name": "address_2_street",
+        "Id": "address_2_street",
+        "Label": "Address Line 2 Street",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "address_2_city",
+        "Id": "address_2_city",
+        "Label": "City",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_region",
+        "Id": "address_2_region",
+        "Label": "Region",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "address_2_postal",
+        "Id": "address_2_postal",
+        "Label": "Postal Code",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_type",
+        "Id": "address_2_type",
+        "Label": "Address Type Mailing Address, Permanent Address",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_effective_m",
+        "Id": "address_2_effective_m",
+        "Label": "Valid From Month optional January, February",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_effective_d",
+        "Id": "address_2_effective_d",
+        "Label": "Valid From Day optional 1, 2",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_effective_y",
+        "Id": "address_2_effective_y",
+        "Label": "Valid From Year optional 2024, 2025",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_expires_m",
+        "Id": "address_2_expires_m",
+        "Label": "Valid Until Month optional January, February",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_expires_d",
+        "Id": "address_2_expires_d",
+        "Label": "Valid Until Day optional 1, 2",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "address_2_expires_y",
+        "Id": "address_2_expires_y",
+        "Label": "Valid Until Year optional 2024, 2025",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "tel",
+        "Name": "phone",
+        "Id": "phone",
+        "Label": "Daytime Phone Number",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "tel",
+        "Name": "business",
+        "Id": "business",
+        "Label": "Evening Phone Number",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "tel",
+        "Name": "mobile",
+        "Id": "mobile",
+        "Label": "Mobile Phone Number",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "gender",
+        "Id": "gender",
+        "Label": "Gender Female, Male",
+        "Children": [
+          {
+            "Tag": "input",
+            "Type": "text",
+            "Name": "gender_free_text",
+            "Id": "gender_free_text",
+            "Label": "Please specify:",
+            "Children": []
+          }
+        ]
+      },
+      {
+        "Tag": "select",
+        "Name": "birthdate_m",
+        "Id": "birthdate_m",
+        "Label": "Birthdate Month January, February",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "birthdate_d",
+        "Id": "birthdate_d",
+        "Label": "Birthdate Day 1, 2",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "birthdate_y",
+        "Id": "birthdate_y",
+        "Label": "Birthdate Year 2024, 2023",
+        "Children": []
+      },
+      {
+        "Tag": "select",
+        "Name": "citizenship1",
+        "Id": "citizenship1",
+        "Label": "Primary Citizenship United States, Afghanistan",
+        "Children": []
+      }
+    ]
+  },
+  {
+    "data": [
+      {
+        "Tag": "input",
+        "Type": "checkbox",
+        "Name": "race",
+        "Id": "race_adfcfcb5-5394-4fca-991f-2e460e924fee",
+        "Label": "Regardless of your answer to the prior question, please check one or more of the following groups in which you consider yourself to be a member: American Indian or Alaska Native",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "checkbox",
+        "Name": "race",
+        "Id": "race_5c5b0b7a-73a6-4797-8d82-562aa4e31107",
+        "Label": "Regardless of your answer to the prior question, please check one or more of the following groups in which you consider yourself to be a member: Asian",
+        "Children": [
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_45485499-9aa6-4b38-ae29-b81317b7428f",
+            "Label": "China",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_a138fa5e-e660-458b-aede-6885bfc0180f",
+            "Label": "India",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_2529314e-f0c8-4dd6-a187-9b190ff8cb8d",
+            "Label": "Japan",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_fde72437-9df7-48b9-b2cc-bc145e84e5a7",
+            "Label": "Korea",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_af172336-7d1c-458f-aba1-c3155ff0799f",
+            "Label": "Pakistan",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_7983f74e-823e-40ba-b5ca-db0791b5a16f",
+            "Label": "Philippines",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_4c13b40c-dd35-4bb0-bac3-b872f6d3a1a3",
+            "Label": "Vietnam",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_8f3313f0-6a1f-444e-81d2-0f0ab5d63fc9",
+            "Label": "Other East Asia",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_6a90580b-160e-42f0-958b-6c77851d12cc",
+            "Label": "Other Indian Subcontinent",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_4cb3bc6d-8d01-497f-b1e9-238b310ea5b1",
+            "Label": "Other Southeast Asia",
+            "Children": []
+          }
+        ]
+      },
+      {
+        "Tag": "input",
+        "Type": "checkbox",
+        "Name": "race",
+        "Id": "race_12b49f2e-6e7d-4402-b58d-c6eab43b789a",
+        "Label": "Regardless of your answer to the prior question, please check one or more of the following groups in which you consider yourself to be a member: Black or African American",
+        "Children": [
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_3e34f15d-17de-4eba-aea9-ce35540ea582",
+            "Label": "Africa",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_703e4d9d-d719-4d40-902f-751479e7330c",
+            "Label": "African American/U.S.",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_72f2d24b-47c4-4d9d-96a3-b5302f879ae3",
+            "Label": "Caribbean",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_675a0daa-77ec-4002-8673-13384f2c3faa",
+            "Label": "Other",
+            "Children": []
+          }
+        ]
+      },
+      {
+        "Tag": "input",
+        "Type": "checkbox",
+        "Name": "race",
+        "Id": "race_3815164f-99e7-4333-9006-4b6a3e3f3a0e",
+        "Label": "Regardless of your answer to the prior question, please check one or more of the following groups in which you consider yourself to be a member: Native Hawaiian or Other Pacific Islander",
+        "Children": [
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_755d04c3-03c2-46c6-ab27-4a6800209c6c",
+            "Label": "Guam",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_f5c35266-c5d6-47f2-b0f7-511917a02965",
+            "Label": "Hawaii",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_47084b1a-1fce-42a5-ad0b-d0bef64e82ac",
+            "Label": "Samoa",
+            "Children": []
+          },
+          {
+            "Tag": "input",
+            "Type": "checkbox",
+            "Name": "race",
+            "Id": "race_b8de1aae-f71a-4f07-8d38-9da8d6f683a2",
+            "Label": "Other Pacific Islands (excluding Philippines)",
+            "Children": []
+          }
+        ]
+      },
+      {
+        "Tag": "input",
+        "Type": "checkbox",
+        "Name": "race",
+        "Id": "race_cd6b1bac-e441-4649-a7d3-a61ccf8c860c",
+        "Label": "Regardless of your answer to the prior question, please check one or more of the following groups in which you consider yourself to be a member: White",
+        "Children": []
+      },
+      {
+        "Tag": "input",
+        "Type": "text",
+        "Name": "tribal_affiliation",
+        "Id": "tribal_affiliation",
+        "Label": "Additional Information: Tribal Affiliation",
+        "Children": []
+      }
+    ]
+  }
+]
