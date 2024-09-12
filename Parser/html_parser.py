@@ -2,12 +2,13 @@ import re
 import json
 from bs4 import BeautifulSoup
 
-html_path = 'test_data/yale_test.html'
+test_U = "nyu"
+html_path = f'test_data/{test_U}_test.html'
 with open(html_path, 'r', encoding='utf-8') as f:
     local_html = f.read()
 
 
-def html_parser(html):
+def bs_parser(html):
     soup = BeautifulSoup(html, 'html.parser')
     # 提取所有输入字段并进行定位
     input_fields = html_parser_input(soup)
@@ -29,10 +30,6 @@ parsed_ids = set()  # 记录已经解析过的input
 def html_parser_input(soup):
     input_fields = []
     for input_field in soup.find_all('input'):
-
-        if input_field.get('id') in parsed_ids:
-            continue
-        parsed_ids.add(input_field.get('id'))
         if input_field.get('type') == 'checkbox':
             input_fields.append(
                 html_parser_checkbox(input_field)
@@ -74,6 +71,7 @@ def html_parser_select(soup):
                 'Tag': select_field.name,
                 'Name': select_field.get('name'),
                 'Id': select_field.get('id'),
+                'Class': select_field.get('class'),
                 'Disabled': select_field.get('disabled'),
                 'Options': [{'Value': option.get('value'),
                              'Text': re.sub(r'\s+', ' ', option.text).strip()} for option in options],
@@ -98,21 +96,25 @@ def html_parser_textarea(soup):
     return textarea_fields
 
 
-# 利用AI解析的结果和bs解析的结果,匹配生成最终的解析结果
-def merge_result(bs_path, ai_path, result_path):
+# 利用AI解析的结果和bs解析的结果,匹配生成最终解析结果
+def html_parser(bs_path, ai_path, result_path):
+    with open(bs_path, 'w') as f:
+        json.dump(bs_parser(local_html), f)
     with open(bs_path, 'r') as f:
         bs_result = json.load(f)
     with open(ai_path, 'r') as f:
-        ai_result = json.load(f)
+        ai_results = json.load(f)
     # 提取AI解析的所有结果
     all_ai_result = {'input': [], 'select': [], 'textarea': []}
 
-    # 递归遍历所有子节点,直至找到含有input、select、datalist和textarea tag的元素
+    # 递归遍历所有子节点,直至找到含有input,select,datalist和textarea tag的元素
     def find_field_all_result(field):
         if field['Tag'] == 'input':
             all_ai_result['input'].append(field)
             return
         elif field['Tag'] == 'select' or field['Tag'] == 'datalist':
+            # 将在Children中的options删除
+            field['Children'] = []
             all_ai_result['select'].append(field)
             return
         elif field['Tag'] == 'textarea':
@@ -122,8 +124,9 @@ def merge_result(bs_path, ai_path, result_path):
             for child in field['Children']:
                 find_field_all_result(child)
 
-    for ai in ai_result['data']:
-        find_field_all_result(ai)
+    for ai_result in ai_results:
+        for ai in ai_result['data']:
+            find_field_all_result(ai)
 
     # 将AI解析的结果与bs解析的结果进行匹配
     for input_field in bs_result['input']:
@@ -134,9 +137,16 @@ def merge_result(bs_path, ai_path, result_path):
 
     for select_field in bs_result['select']:
         for ai_field in all_ai_result['select']:
-            if select_field['Id'] == ai_field['Id'] and ai_field['Tag'] == 'select':
-                select_field['Children'] = ai_field['Children']
-                select_field['Label'] = ai_field['Label']
+            if 'Id' in select_field and 'Id' in ai_field:
+                if (select_field['Id'] == ai_field['Id']
+                        and (ai_field['Tag'] == 'select' or ai_field['Tag'] == 'datalist')):
+                    select_field['Children'] = ai_field['Children']
+                    select_field['Label'] = ai_field['Label']
+            elif 'Name' in select_field and 'Name' in ai_field:
+                if (select_field['Name'] == ai_field['Name'] and
+                        (ai_field['Tag'] == 'select' or ai_field['Tag'] == 'datalist')):
+                    select_field['Children'] = ai_field['Children']
+                    select_field['Label'] = ai_field['Label']
 
     for textarea_field in bs_result['textarea']:
         for ai_field in all_ai_result['textarea']:
@@ -144,16 +154,21 @@ def merge_result(bs_path, ai_path, result_path):
                 textarea_field['Children'] = ai_field['Children']
                 textarea_field['Label'] = ai_field['Label']
 
-    # TODO:去除重复项
+    # 去除重复项,即没有Label属性的项
+    def remove_no_label_field(field_list):
+        return [field for field in field_list if field.get('Label')]
 
+    bs_result['input'] = remove_no_label_field(bs_result['input'])
+    bs_result['select'] = remove_no_label_field(bs_result['select'])
+    bs_result['textarea'] = remove_no_label_field(bs_result['textarea'])
 
     with open(result_path, 'w') as f:
-        json.dump(bs_result, f, indent=4)
+        json.dump(bs_result, f)
 
 
 if __name__ == '__main__':
-    # with open("bs_result.json", "w") as f:
-    #     json.dump(html_parser(local_html), f)
-    merge_result("result/yale_bs_result.json",
-                 "result/yale_stream_result.json",
-                 "result/final/yale_final_result.json")
+    # with open("result/bs/emory_bs_result.json", 'w') as f:
+    #     json.dump(bs_parser(local_html), f)
+    html_parser(f"result/bs/{test_U}_bs_result.json",
+                f"result/AI/{test_U}_result.json",
+                f"result/final/{test_U}_final_result.json")
