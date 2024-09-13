@@ -4,7 +4,7 @@ import re
 from openai import OpenAI
 from bs4 import BeautifulSoup
 
-test_U = "nyu"
+test_U = "emory"
 encoding = tiktoken.encoding_for_model("gpt-4")
 headers = {"Content-Type": "application/json"}
 local_html = open(f'test_data/{test_U}_test.html', 'r', encoding='utf-8').read()
@@ -58,15 +58,15 @@ def generate_messages(chunk, previous_messages=None):
                                 "type": "object",
                                 "properties": {
                                     "Tag": {"type": "string",
-                                            "description": "The tag of the element (e.g. input, select, textarea and datalist)."},
+                                            "description": "The tag of the element (Only contain input, select, textarea and datalist)."},
                                     "Type": {"type": "string",
-                                             "description": "The type attribute of the element if applicable."},
+                                             "description": "The type attribute of the tag if applicable."},
                                     "Name": {"type": "string",
-                                             "description": "The name attribute of the element."},
+                                             "description": "The name attribute of the tag."},
                                     "Id": {"type": "string",
-                                           "description": "The id attribute of the element."},
+                                           "description": "The id attribute of the tag."},
                                     "Label": {"type": "string",
-                                              "description": "English only. The label and information which can associate with the fill element. If the element is a checkbox or radio button, the 'Label' attribute will include the premise information and its text. If the element is a select element, the 'Label' attribute will be the brief summary of the premise information and its options. Don't worry about the premise information getting too long, just summarize it briefly (don't make it too long) and put it in front of the first answer (not for Children). Be sure to remove newline characters and redundant spaces."},
+                                              "description": "English only. The label and information which can associate with the fill element. If the element is a checkbox or radio button, the 'Label' attribute will include the premise information and its text. If the element is a select element, the 'Label' attribute will include the brief summary of the premise information and its options. Don't worry about the premise information getting too long, just summarize it briefly (don't make it too long) and put it in front of the first answer (not for Children). Be sure to remove newline characters and redundant spaces."},
                                     'Children': {"type": "array",
                                                  "description": "A list of child elements which has the same structure and properties as items. If an element has logic that affects other elements, such as checkboxes enabling or showing other input fields, the affected elements will be listed here. Don't put option tags in here.",
                                                  "items": {
@@ -82,11 +82,11 @@ def generate_messages(chunk, previous_messages=None):
                                                              "items": {}
                                                          }
                                                      },
-                                                     "required": ["Tag", "Name", "Id", "Label", "Children"]
+                                                     "required": ["Tag", "Id", "Label", "Children"]
                                                  }
                                                  },
                                 },
-                                "required": ["Tag", "Name", "Id", "Label", "Children"]
+                                "required": ["Tag", "Id", "Label", "Children"]
                             }
                         }
                     },
@@ -143,7 +143,7 @@ def AI_parser(html):
     with open(f"test_data/cleaned/{test_U}_cleaned.html", "w", encoding="utf-8") as f:
         f.write(cleaned_html)
 
-    chunks = chunks_with_overlap(cleaned_html, 15000, 5000)
+    chunks = chunks_with_overlap(cleaned_html, 13000, 4000)
     previous_messages = None
     results = []
     all_input_tokens = 0
@@ -152,7 +152,7 @@ def AI_parser(html):
         result, output_tokens, input_tokens = generate_messages(chunk, previous_messages)
         all_input_tokens += input_tokens
         all_output_tokens += output_tokens
-        result = eval(result)
+        result = json.loads(result)
         previous_messages = extract_relevant_context(result)
         results.append(result)
 

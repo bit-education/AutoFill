@@ -2,7 +2,7 @@ import re
 import json
 from bs4 import BeautifulSoup
 
-test_U = "nyu"
+test_U = "emory"
 html_path = f'test_data/{test_U}_test.html'
 with open(html_path, 'r', encoding='utf-8') as f:
     local_html = f.read()
@@ -154,9 +154,9 @@ def html_parser(bs_path, ai_path, result_path):
                 textarea_field['Children'] = ai_field['Children']
                 textarea_field['Label'] = ai_field['Label']
 
-    # 去除重复项,即没有Label属性的项
+    # 去除重复项,即没有Label属性或者Options属性的项
     def remove_no_label_field(field_list):
-        return [field for field in field_list if field.get('Label')]
+        return [field for field in field_list if field.get('Label') or field.get('Options')]
 
     bs_result['input'] = remove_no_label_field(bs_result['input'])
     bs_result['select'] = remove_no_label_field(bs_result['select'])
