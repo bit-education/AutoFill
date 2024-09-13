@@ -52,7 +52,7 @@
       "Type": "text",
       "Required": null,
       "Children": [],
-      "Label": "City"
+      "Label": "New Address. City"
     },
     {
       "Tag": "input",
@@ -61,7 +61,7 @@
       "Type": "text",
       "Required": null,
       "Children": [],
-      "Label": "Postal Code"
+      "Label": "New Address. Postal Code"
     },
     {
       "Tag": "input",
@@ -70,7 +70,7 @@
       "Type": "text",
       "Required": null,
       "Children": [],
-      "Label": "City"
+      "Label": "Permanent Address. City"
     },
     {
       "Tag": "input",
@@ -79,7 +79,7 @@
       "Type": "text",
       "Required": null,
       "Children": [],
-      "Label": "Postal Code"
+      "Label": "Permanent Address. Postal Code"
     },
     {
       "Tag": "input",
@@ -106,7 +106,7 @@
       "Type": "tel",
       "Required": null,
       "Children": [],
-      "Label": "Daytime Phone Number"
+      "Label": "Daytime Telephone Number"
     },
     {
       "Tag": "input",
@@ -115,7 +115,7 @@
       "Type": "tel",
       "Required": null,
       "Children": [],
-      "Label": "Evening Phone Number"
+      "Label": "Evening Telephone Number"
     },
     {
       "Tag": "input",
@@ -124,7 +124,109 @@
       "Type": "tel",
       "Required": null,
       "Children": [],
-      "Label": "Mobile Phone Number"
+      "Label": "Mobile Telephone Number"
+    },
+    {
+      "Tag": "input",
+      "Name": "resident",
+      "Id": "resident",
+      "Type": "checkbox",
+      "Required": null,
+      "Children": [],
+      "Label": "Residency Status. U.S. Permanent Resident"
+    },
+    {
+      "Tag": "input",
+      "Name": "ssn",
+      "Id": "ssn",
+      "Type": "text",
+      "Required": null,
+      "Children": [],
+      "Label": "Social Security Number (omit dashes)"
+    },
+    {
+      "Tag": "input",
+      "Name": "hispanic",
+      "Id": "hispanic_1",
+      "Type": "checkbox",
+      "Required": null,
+      "Children": [
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_1",
+          "Label": "Central America",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_2",
+          "Label": "Cuba",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_3",
+          "Label": "Mexico",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_4",
+          "Label": "Puerto Rico",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_5",
+          "Label": "South America",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_6",
+          "Label": "Spain",
+          "Children": []
+        },
+        {
+          "Tag": "input",
+          "Type": "checkbox",
+          "Name": "hispanicOrigin",
+          "Id": "hispanicOrigin_other",
+          "Label": "Other",
+          "Children": [
+            {
+              "Tag": "input",
+              "Type": "text",
+              "Name": "hispanicOther",
+              "Id": "hispanicOther",
+              "Label": "",
+              "Children": []
+            }
+          ]
+        }
+      ],
+      "Label": "Are you Hispanic or Latino? Yes"
+    },
+    {
+      "Tag": "input",
+      "Name": "hispanic",
+      "Id": "hispanic_0",
+      "Type": "checkbox",
+      "Required": null,
+      "Children": [],
+      "Label": "Are you Hispanic or Latino? No"
     },
     {
       "Tag": "input",
@@ -133,7 +235,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Regardless of your answer to the prior question, please check one or more of the following groups in which you consider yourself to be a member: American Indian or Alaska Native"
+      "Label": "American Indian or Alaska Native"
     },
     {
       "Tag": "input",
@@ -223,7 +325,7 @@
           "Children": []
         }
       ],
-      "Label": "Regardless of your answer to the prior question, please check one or more of the following groups in which you consider yourself to be a member: Asian"
+      "Label": "Asian"
     },
     {
       "Tag": "input",
@@ -265,7 +367,7 @@
           "Children": []
         }
       ],
-      "Label": "Regardless of your answer to the prior question, please check one or more of the following groups in which you consider yourself to be a member: Black or African American"
+      "Label": "Black or African American"
     },
     {
       "Tag": "input",
@@ -287,27 +389,11 @@
           "Type": "checkbox",
           "Name": "race",
           "Id": "race_f5c35266-c5d6-47f2-b0f7-511917a02965",
-          "Label": "Hawaii",
-          "Children": []
-        },
-        {
-          "Tag": "input",
-          "Type": "checkbox",
-          "Name": "race",
-          "Id": "race_47084b1a-1fce-42a5-ad0b-d0bef64e82ac",
-          "Label": "Samoa",
-          "Children": []
-        },
-        {
-          "Tag": "input",
-          "Type": "checkbox",
-          "Name": "race",
-          "Id": "race_b8de1aae-f71a-4f07-8d38-9da8d6f683a2",
-          "Label": "Other Pacific Islands (excluding Philippines)",
+          "Label": "",
           "Children": []
         }
       ],
-      "Label": "Regardless of your answer to the prior question, please check one or more of the following groups in which you consider yourself to be a member: Native Hawaiian or Other Pacific Islander"
+      "Label": "Native Hawaiian or Other Pacific Islander"
     },
     {
       "Tag": "input",
@@ -316,16 +402,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Regardless of your answer to the prior question, please check one or more of the following groups in which you consider yourself to be a member: White"
-    },
-    {
-      "Tag": "input",
-      "Name": "tribal_affiliation",
-      "Id": "tribal_affiliation",
-      "Type": "text",
-      "Required": null,
-      "Children": [],
-      "Label": "Additional Information: Tribal Affiliation"
+      "Label": "White"
     }
   ],
   "select": [
@@ -333,6 +410,7 @@
       "Tag": "select",
       "Name": "suffix",
       "Id": "suffix",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -370,12 +448,34 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Suffix Jr., Sr."
+      "Label": "Suffix. Options are: [ , Jr., Sr.]"
+    },
+    {
+      "Tag": "select",
+      "Name": "address__0__type",
+      "Id": null,
+      "Class": [
+        "address_type"
+      ],
+      "Disabled": null,
+      "Options": [
+        {
+          "Value": "",
+          "Text": "Mailing Address"
+        },
+        {
+          "Value": "permanent",
+          "Text": "Permanent Address"
+        }
+      ],
+      "Required": null,
+      "Children": []
     },
     {
       "Tag": "select",
       "Name": "address__0__effective_m",
       "Id": "address__0__effective_m",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -433,12 +533,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid From optional January, February"
+      "Label": "New Address. Valid From (optional). Options are: [ , January, February]"
     },
     {
       "Tag": "select",
       "Name": "address__0__effective_d",
       "Id": "address__0__effective_d",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -572,12 +673,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid From optional 1, 2"
+      "Label": "New Address. Valid From (optional). Options are: [ , 1, 2]"
     },
     {
       "Tag": "select",
       "Name": "address__0__effective_y",
       "Id": "address__0__effective_y",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -599,12 +701,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid From optional 2024, 2025"
+      "Label": "New Address. Valid From (optional). Options are: [ , 2024, 2025]"
     },
     {
       "Tag": "select",
       "Name": "address__0__expires_m",
       "Id": "address__0__expires_m",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -662,12 +765,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid Until optional January, February"
+      "Label": "New Address. Valid Until (optional). Options are: [ , January, February]"
     },
     {
       "Tag": "select",
       "Name": "address__0__expires_d",
       "Id": "address__0__expires_d",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -801,12 +905,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid Until optional 1, 2"
+      "Label": "New Address. Valid Until (optional). Options are: [ , 1, 2]"
     },
     {
       "Tag": "select",
       "Name": "address__0__expires_y",
       "Id": "address__0__expires_y",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -828,12 +933,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid Until optional 2024, 2025"
+      "Label": "New Address. Valid Until (optional). Options are: [ , 2024, 2025]"
     },
     {
       "Tag": "select",
       "Name": "address_1_country",
       "Id": "address_1_country",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -1855,12 +1961,498 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Country Afghanistan, Aland Islands"
+      "Label": "Permanent Address. Country. Options are: [ , Afghanistan, Aland Islands]"
+    },
+    {
+      "Tag": "select",
+      "Name": "address_1_type",
+      "Id": null,
+      "Class": [
+        "address_type"
+      ],
+      "Disabled": null,
+      "Options": [
+        {
+          "Value": "",
+          "Text": "Mailing Address"
+        },
+        {
+          "Value": "permanent",
+          "Text": "Permanent Address"
+        }
+      ],
+      "Required": null,
+      "Children": []
+    },
+    {
+      "Tag": "select",
+      "Name": "address_1_effective_m",
+      "Id": "address_1_effective_m",
+      "Class": null,
+      "Disabled": "",
+      "Options": [
+        {
+          "Value": "",
+          "Text": ""
+        },
+        {
+          "Value": "01",
+          "Text": "January"
+        },
+        {
+          "Value": "02",
+          "Text": "February"
+        },
+        {
+          "Value": "03",
+          "Text": "March"
+        },
+        {
+          "Value": "04",
+          "Text": "April"
+        },
+        {
+          "Value": "05",
+          "Text": "May"
+        },
+        {
+          "Value": "06",
+          "Text": "June"
+        },
+        {
+          "Value": "07",
+          "Text": "July"
+        },
+        {
+          "Value": "08",
+          "Text": "August"
+        },
+        {
+          "Value": "09",
+          "Text": "September"
+        },
+        {
+          "Value": "10",
+          "Text": "October"
+        },
+        {
+          "Value": "11",
+          "Text": "November"
+        },
+        {
+          "Value": "12",
+          "Text": "December"
+        }
+      ],
+      "Required": null,
+      "Children": [],
+      "Label": "Permanent Address. Valid From (optional). Options are: [ , January, February]"
+    },
+    {
+      "Tag": "select",
+      "Name": "address_1_effective_d",
+      "Id": "address_1_effective_d",
+      "Class": null,
+      "Disabled": "",
+      "Options": [
+        {
+          "Value": "",
+          "Text": ""
+        },
+        {
+          "Value": "01",
+          "Text": "1"
+        },
+        {
+          "Value": "02",
+          "Text": "2"
+        },
+        {
+          "Value": "03",
+          "Text": "3"
+        },
+        {
+          "Value": "04",
+          "Text": "4"
+        },
+        {
+          "Value": "05",
+          "Text": "5"
+        },
+        {
+          "Value": "06",
+          "Text": "6"
+        },
+        {
+          "Value": "07",
+          "Text": "7"
+        },
+        {
+          "Value": "08",
+          "Text": "8"
+        },
+        {
+          "Value": "09",
+          "Text": "9"
+        },
+        {
+          "Value": "10",
+          "Text": "10"
+        },
+        {
+          "Value": "11",
+          "Text": "11"
+        },
+        {
+          "Value": "12",
+          "Text": "12"
+        },
+        {
+          "Value": "13",
+          "Text": "13"
+        },
+        {
+          "Value": "14",
+          "Text": "14"
+        },
+        {
+          "Value": "15",
+          "Text": "15"
+        },
+        {
+          "Value": "16",
+          "Text": "16"
+        },
+        {
+          "Value": "17",
+          "Text": "17"
+        },
+        {
+          "Value": "18",
+          "Text": "18"
+        },
+        {
+          "Value": "19",
+          "Text": "19"
+        },
+        {
+          "Value": "20",
+          "Text": "20"
+        },
+        {
+          "Value": "21",
+          "Text": "21"
+        },
+        {
+          "Value": "22",
+          "Text": "22"
+        },
+        {
+          "Value": "23",
+          "Text": "23"
+        },
+        {
+          "Value": "24",
+          "Text": "24"
+        },
+        {
+          "Value": "25",
+          "Text": "25"
+        },
+        {
+          "Value": "26",
+          "Text": "26"
+        },
+        {
+          "Value": "27",
+          "Text": "27"
+        },
+        {
+          "Value": "28",
+          "Text": "28"
+        },
+        {
+          "Value": "29",
+          "Text": "29"
+        },
+        {
+          "Value": "30",
+          "Text": "30"
+        },
+        {
+          "Value": "31",
+          "Text": "31"
+        }
+      ],
+      "Required": null,
+      "Children": [],
+      "Label": "Permanent Address. Valid From (optional). Options are: [ , 1, 2]"
+    },
+    {
+      "Tag": "select",
+      "Name": "address_1_effective_y",
+      "Id": "address_1_effective_y",
+      "Class": null,
+      "Disabled": "",
+      "Options": [
+        {
+          "Value": null,
+          "Text": ""
+        },
+        {
+          "Value": "2024",
+          "Text": "2024"
+        },
+        {
+          "Value": "2025",
+          "Text": "2025"
+        },
+        {
+          "Value": "2026",
+          "Text": "2026"
+        }
+      ],
+      "Required": null,
+      "Children": [],
+      "Label": "Permanent Address. Valid From (optional). Options are: [ , 2024, 2025]"
+    },
+    {
+      "Tag": "select",
+      "Name": "address_1_expires_m",
+      "Id": "address_1_expires_m",
+      "Class": null,
+      "Disabled": "",
+      "Options": [
+        {
+          "Value": "",
+          "Text": ""
+        },
+        {
+          "Value": "01",
+          "Text": "January"
+        },
+        {
+          "Value": "02",
+          "Text": "February"
+        },
+        {
+          "Value": "03",
+          "Text": "March"
+        },
+        {
+          "Value": "04",
+          "Text": "April"
+        },
+        {
+          "Value": "05",
+          "Text": "May"
+        },
+        {
+          "Value": "06",
+          "Text": "June"
+        },
+        {
+          "Value": "07",
+          "Text": "July"
+        },
+        {
+          "Value": "08",
+          "Text": "August"
+        },
+        {
+          "Value": "09",
+          "Text": "September"
+        },
+        {
+          "Value": "10",
+          "Text": "October"
+        },
+        {
+          "Value": "11",
+          "Text": "November"
+        },
+        {
+          "Value": "12",
+          "Text": "December"
+        }
+      ],
+      "Required": null,
+      "Children": [],
+      "Label": "Permanent Address. Valid Until (optional). Options are: [ , January, February]"
+    },
+    {
+      "Tag": "select",
+      "Name": "address_1_expires_d",
+      "Id": "address_1_expires_d",
+      "Class": null,
+      "Disabled": "",
+      "Options": [
+        {
+          "Value": "",
+          "Text": ""
+        },
+        {
+          "Value": "01",
+          "Text": "1"
+        },
+        {
+          "Value": "02",
+          "Text": "2"
+        },
+        {
+          "Value": "03",
+          "Text": "3"
+        },
+        {
+          "Value": "04",
+          "Text": "4"
+        },
+        {
+          "Value": "05",
+          "Text": "5"
+        },
+        {
+          "Value": "06",
+          "Text": "6"
+        },
+        {
+          "Value": "07",
+          "Text": "7"
+        },
+        {
+          "Value": "08",
+          "Text": "8"
+        },
+        {
+          "Value": "09",
+          "Text": "9"
+        },
+        {
+          "Value": "10",
+          "Text": "10"
+        },
+        {
+          "Value": "11",
+          "Text": "11"
+        },
+        {
+          "Value": "12",
+          "Text": "12"
+        },
+        {
+          "Value": "13",
+          "Text": "13"
+        },
+        {
+          "Value": "14",
+          "Text": "14"
+        },
+        {
+          "Value": "15",
+          "Text": "15"
+        },
+        {
+          "Value": "16",
+          "Text": "16"
+        },
+        {
+          "Value": "17",
+          "Text": "17"
+        },
+        {
+          "Value": "18",
+          "Text": "18"
+        },
+        {
+          "Value": "19",
+          "Text": "19"
+        },
+        {
+          "Value": "20",
+          "Text": "20"
+        },
+        {
+          "Value": "21",
+          "Text": "21"
+        },
+        {
+          "Value": "22",
+          "Text": "22"
+        },
+        {
+          "Value": "23",
+          "Text": "23"
+        },
+        {
+          "Value": "24",
+          "Text": "24"
+        },
+        {
+          "Value": "25",
+          "Text": "25"
+        },
+        {
+          "Value": "26",
+          "Text": "26"
+        },
+        {
+          "Value": "27",
+          "Text": "27"
+        },
+        {
+          "Value": "28",
+          "Text": "28"
+        },
+        {
+          "Value": "29",
+          "Text": "29"
+        },
+        {
+          "Value": "30",
+          "Text": "30"
+        },
+        {
+          "Value": "31",
+          "Text": "31"
+        }
+      ],
+      "Required": null,
+      "Children": [],
+      "Label": "Permanent Address. Valid Until (optional). Options are: [ , 1, 2]"
+    },
+    {
+      "Tag": "select",
+      "Name": "address_1_expires_y",
+      "Id": "address_1_expires_y",
+      "Class": null,
+      "Disabled": "",
+      "Options": [
+        {
+          "Value": null,
+          "Text": ""
+        },
+        {
+          "Value": "2024",
+          "Text": "2024"
+        },
+        {
+          "Value": "2025",
+          "Text": "2025"
+        },
+        {
+          "Value": "2026",
+          "Text": "2026"
+        }
+      ],
+      "Required": null,
+      "Children": [],
+      "Label": "Permanent Address. Valid Until (optional). Options are: [ , 2024, 2025]"
     },
     {
       "Tag": "select",
       "Name": "address_2_country",
       "Id": "address_2_country",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -2882,12 +3474,34 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Country Afghanistan, Aland Islands"
+      "Label": "Mailing Address. Country. Options are: [ , Afghanistan, Aland Islands]"
+    },
+    {
+      "Tag": "select",
+      "Name": "address_2_type",
+      "Id": null,
+      "Class": [
+        "address_type"
+      ],
+      "Disabled": null,
+      "Options": [
+        {
+          "Value": "",
+          "Text": "Mailing Address"
+        },
+        {
+          "Value": "permanent",
+          "Text": "Permanent Address"
+        }
+      ],
+      "Required": null,
+      "Children": []
     },
     {
       "Tag": "select",
       "Name": "address_2_effective_m",
       "Id": "address_2_effective_m",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -2945,12 +3559,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid From Month optional January, February"
+      "Label": "Valid From - Month. Options are: [ , January, February]"
     },
     {
       "Tag": "select",
       "Name": "address_2_effective_d",
       "Id": "address_2_effective_d",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -3084,12 +3699,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid From Day optional 1, 2"
+      "Label": "Valid From - Day. Options are: [ , 1, 2]"
     },
     {
       "Tag": "select",
       "Name": "address_2_effective_y",
       "Id": "address_2_effective_y",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -3111,12 +3727,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid From Year optional 2024, 2025"
+      "Label": "Valid From - Year. Options are: [ , 2024, 2025]"
     },
     {
       "Tag": "select",
       "Name": "address_2_expires_m",
       "Id": "address_2_expires_m",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -3174,12 +3791,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid Until Month optional January, February"
+      "Label": "Valid Until - Month. Options are: [ , January, February]"
     },
     {
       "Tag": "select",
       "Name": "address_2_expires_d",
       "Id": "address_2_expires_d",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -3313,12 +3931,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid Until Day optional 1, 2"
+      "Label": "Valid Until - Day. Options are: [ , 1, 2]"
     },
     {
       "Tag": "select",
       "Name": "address_2_expires_y",
       "Id": "address_2_expires_y",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -3340,12 +3959,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Valid Until Year optional 2024, 2025"
+      "Label": "Valid Until - Year. Options are: [ , 2024, 2025]"
     },
     {
       "Tag": "select",
       "Name": "gender",
       "Id": "gender",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -3367,12 +3987,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Gender Female, Male"
+      "Label": "Gender. Options are: [ , Female, Male]"
     },
     {
       "Tag": "select",
       "Name": "birthdate_m",
       "Id": "birthdate_m",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -3430,12 +4051,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Birthdate Month January, February"
+      "Label": "Birthdate - Month. Options are: [ , January, February]"
     },
     {
       "Tag": "select",
       "Name": "birthdate_d",
       "Id": "birthdate_d",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -3569,12 +4191,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Birthdate Day 1, 2"
+      "Label": "Birthdate - Day. Options are: [ , 1, 2]"
     },
     {
       "Tag": "select",
       "Name": "birthdate_y",
       "Id": "birthdate_y",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -4024,12 +4647,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Birthdate Year 2024, 2023"
+      "Label": "Birthdate - Year. Options are: [ , 2024, 2023]"
     },
     {
       "Tag": "select",
       "Name": "citizenship1",
       "Id": "citizenship1",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -5055,12 +5679,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Primary Citizenship United States, Afghanistan"
+      "Label": "Primary Citizenship. Options are: [ , United States, Afghanistan]"
     },
     {
       "Tag": "select",
       "Name": "citizenship2",
       "Id": "citizenship2",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -6086,7 +6711,7 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Dual Citizenship United States, Afghanistan"
+      "Label": "Dual Citizenship. Options are: [ , United States, Afghanistan]"
     }
   ],
   "textarea": [
@@ -6096,7 +6721,7 @@
       "Id": "address__0__street",
       "Required": null,
       "Children": [],
-      "Label": "Street Address"
+      "Label": "New Address. Street Address"
     },
     {
       "Tag": "textarea",
@@ -6104,7 +6729,7 @@
       "Id": "address_1_street",
       "Required": null,
       "Children": [],
-      "Label": "Street Address"
+      "Label": "Permanent Address. Street Address"
     },
     {
       "Tag": "textarea",
@@ -6112,7 +6737,7 @@
       "Id": "address_2_street",
       "Required": null,
       "Children": [],
-      "Label": "Address Line 2 Street"
+      "Label": "Mailing Address. Street Address"
     }
   ]
 }

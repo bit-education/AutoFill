@@ -34,7 +34,7 @@
       "Type": "text",
       "Required": null,
       "Children": [],
-      "Label": "Other names under which official documents might be received"
+      "Label": "Other names under which official documents might be received:"
     },
     {
       "Tag": "input",
@@ -61,7 +61,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Are you a Permanent resident of the United States? Yes"
+      "Label": "Are you a Permanent Resident of the United States? Yes"
     },
     {
       "Tag": "input",
@@ -70,7 +70,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Are you a Permanent resident of the United States? No"
+      "Label": "Are you a Permanent Resident of the United States? No"
     },
     {
       "Tag": "input",
@@ -88,7 +88,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Is English your first language? - Yes"
+      "Label": "Is English your first language? Yes"
     },
     {
       "Tag": "input",
@@ -97,7 +97,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Is English your first language? - No"
+      "Label": "Is English your first language? No"
     },
     {
       "Tag": "input",
@@ -106,7 +106,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Evaluate your English proficiency: Speaking Proficiency - High"
+      "Label": "Evaluates English proficiency. Speaking Proficiency. High"
     },
     {
       "Tag": "input",
@@ -115,7 +115,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Evaluate your English proficiency: Speaking Proficiency - Moderate"
+      "Label": "Evaluates English proficiency. Speaking Proficiency. Moderate"
     },
     {
       "Tag": "input",
@@ -124,7 +124,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Evaluate your English proficiency: Speaking Proficiency - Low"
+      "Label": "Evaluates English proficiency. Speaking Proficiency. Low"
     },
     {
       "Tag": "input",
@@ -133,7 +133,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Evaluate your English proficiency: Reading Proficiency - High"
+      "Label": "Evaluates English proficiency. Reading Proficiency. High"
     },
     {
       "Tag": "input",
@@ -142,7 +142,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Evaluate your English proficiency: Reading Proficiency - Moderate"
+      "Label": "Evaluates English proficiency. Reading Proficiency. Moderate"
     },
     {
       "Tag": "input",
@@ -151,7 +151,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Evaluate your English proficiency: Reading Proficiency - Low"
+      "Label": "Evaluates English proficiency. Reading Proficiency. Low"
     },
     {
       "Tag": "input",
@@ -160,7 +160,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Evaluate your English proficiency: Writing ability - High"
+      "Label": "Evaluates English proficiency. Writing Ability. High"
     },
     {
       "Tag": "input",
@@ -169,7 +169,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Evaluate your English proficiency: Writing ability - Moderate"
+      "Label": "Evaluates English proficiency. Writing Ability. Moderate"
     },
     {
       "Tag": "input",
@@ -178,7 +178,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Evaluate your English proficiency: Writing ability - Low"
+      "Label": "Evaluates English proficiency. Writing Ability. Low"
     },
     {
       "Tag": "input",
@@ -187,7 +187,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Have you completed a bachelor's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? - Yes"
+      "Label": "Have you completed a bachelor's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? Yes"
     },
     {
       "Tag": "input",
@@ -196,7 +196,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Have you completed a bachelor's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? - No"
+      "Label": "Have you completed a bachelor's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? No"
     },
     {
       "Tag": "input",
@@ -205,7 +205,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Have you completed a master's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? - Yes"
+      "Label": "Have you completed a master's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? Yes"
     },
     {
       "Tag": "input",
@@ -214,7 +214,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Have you completed a master's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? - No"
+      "Label": "Have you completed a master's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? No"
     },
     {
       "Tag": "input",
@@ -223,7 +223,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Sex, as recorded on your birth certificate or similar legal document. - Female"
+      "Label": "Sex, as recorded on your birth certificate or similar legal document. Female"
     },
     {
       "Tag": "input",
@@ -232,7 +232,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Sex, as recorded on your birth certificate or similar legal document. - Male"
+      "Label": "Sex, as recorded on your birth certificate or similar legal document. Male"
     },
     {
       "Tag": "input",
@@ -241,7 +241,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender Identity: Agender"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Agender"
     },
     {
       "Tag": "input",
@@ -250,7 +250,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender Identity: Bigender"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Bigender"
     },
     {
       "Tag": "input",
@@ -259,7 +259,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender Identity: Cisgender Man"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Cisgender Man"
     },
     {
       "Tag": "input",
@@ -268,7 +268,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Cisgender Woman"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Cisgender Woman"
     },
     {
       "Tag": "input",
@@ -277,7 +277,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Gender Fluid"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Gender Fluid"
     },
     {
       "Tag": "input",
@@ -286,7 +286,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Gender Non-Conforming"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Gender Non-Conforming"
     },
     {
       "Tag": "input",
@@ -295,7 +295,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Genderqueer"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Genderqueer"
     },
     {
       "Tag": "input",
@@ -304,7 +304,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Non-Binary"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Non-Binary"
     },
     {
       "Tag": "input",
@@ -313,7 +313,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Trans or Transgender"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Trans or Transgender"
     },
     {
       "Tag": "input",
@@ -322,7 +322,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Transgender Man"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Transgender Man"
     },
     {
       "Tag": "input",
@@ -331,7 +331,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Transgender Woman"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Transgender Woman"
     },
     {
       "Tag": "input",
@@ -340,7 +340,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Two-Spirit"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Two-Spirit"
     },
     {
       "Tag": "input",
@@ -349,7 +349,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Prefer not to say"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Prefer not to say"
     },
     {
       "Tag": "input",
@@ -358,7 +358,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Gender: Identity Not Listed"
+      "Label": "Gender Identity: how do you describe yourself? Check all that apply. Identity Not Listed"
     },
     {
       "Tag": "input",
@@ -376,7 +376,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Preferred pronoun(s): He/Him/His"
+      "Label": "Preferred pronoun(s): Check all that apply. He/Him/His"
     },
     {
       "Tag": "input",
@@ -385,7 +385,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Preferred pronoun(s): She/Her/Hers"
+      "Label": "Preferred pronoun(s): Check all that apply. She/Her/Hers"
     },
     {
       "Tag": "input",
@@ -394,7 +394,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Preferred pronoun(s): They/Them/Theirs"
+      "Label": "Preferred pronoun(s): Check all that apply. They/Them/Theirs"
     },
     {
       "Tag": "input",
@@ -403,7 +403,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Preferred pronoun(s): Xie/Hir/Hirs"
+      "Label": "Preferred pronoun(s): Check all that apply. Xie/Hir/Hirs"
     },
     {
       "Tag": "input",
@@ -412,7 +412,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Preferred pronoun(s): Ze/Zir/Zirs"
+      "Label": "Preferred pronoun(s): Check all that apply. Ze/Zir/Zirs"
     },
     {
       "Tag": "input",
@@ -421,7 +421,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Preferred pronoun(s): Prefer Not to Say"
+      "Label": "Preferred pronoun(s): Check all that apply. Prefer Not to Say"
     },
     {
       "Tag": "input",
@@ -430,7 +430,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Preferred pronoun(s): Pronouns Not Listed"
+      "Label": "Preferred pronoun(s): Check all that apply. Pronouns Not Listed"
     },
     {
       "Tag": "input",
@@ -502,7 +502,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Yes"
+      "Label": "Are you yourself, a parent, or your spouse or partner a current or former member of the U.S. Armed Forces? Yes"
     },
     {
       "Tag": "input",
@@ -511,7 +511,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "No"
+      "Label": "Are you yourself, a parent, or your spouse or partner a current or former member of the U.S. Armed Forces? No"
     },
     {
       "Tag": "input",
@@ -520,7 +520,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "I choose not to disclose this information"
+      "Label": "If you answered Yes, please indicate your status, or indicate that you choose not to disclose this information. Note: if you and a parent or spouse/partner serves or did serve, answer this question using your own service. I choose not to disclose this information"
     },
     {
       "Tag": "input",
@@ -529,7 +529,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Are you eligible for Post-9/11 GI Bill Yellow Ribbon benefits? See . Yes"
+      "Label": "Are you eligible for Post-9/11 GI Bill Yellow Ribbon benefits? Yes"
     },
     {
       "Tag": "input",
@@ -538,7 +538,7 @@
       "Type": "radio",
       "Required": null,
       "Children": [],
-      "Label": "Are you eligible for Post-9/11 GI Bill Yellow Ribbon benefits? See . No"
+      "Label": "Are you eligible for Post-9/11 GI Bill Yellow Ribbon benefits? No"
     },
     {
       "Tag": "input",
@@ -601,7 +601,7 @@
       "Type": "checkbox",
       "Required": null,
       "Children": [],
-      "Label": "Cientifico Latino Graduate School Mentorship Program (GSMI)"
+      "Label": "Cient\u00edfico Latino Graduate School Mentorship Program (GSMI)"
     },
     {
       "Tag": "input",
@@ -996,6 +996,7 @@
       "Tag": "select",
       "Name": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_m",
       "Id": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_m",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -1053,12 +1054,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Date of Birth: Month"
+      "Label": "Date of Birth Month options: January, February"
     },
     {
       "Tag": "select",
       "Name": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_d",
       "Id": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_d",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -1192,12 +1194,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Date of Birth: Day"
+      "Label": "Date of Birth Day options: 1, 2"
     },
     {
       "Tag": "select",
       "Name": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_y",
       "Id": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_y",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -1707,12 +1710,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Date of Birth: Year"
+      "Label": "Date of Birth Year options: 2024, 2023"
     },
     {
       "Tag": "select",
       "Name": "form_90d4b9c6-207c-472c-ad9e-bc9f841da7cb",
       "Id": "form_90d4b9c6-207c-472c-ad9e-bc9f841da7cb",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -2734,12 +2738,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Country of Birth"
+      "Label": "Country of Birth options: United States, Afghanistan"
     },
     {
       "Tag": "select",
       "Name": "form_cabced4e-f8e6-48c3-9c78-365b089a2cbd",
       "Id": "form_cabced4e-f8e6-48c3-9c78-365b089a2cbd",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -2997,12 +3002,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "State of Birth"
+      "Label": "State of Birth options: Alabama, Alaska"
     },
     {
       "Tag": "select",
       "Name": "form_94710ebb-295d-4927-b76f-eb7a59b588c6",
       "Id": "form_94710ebb-295d-4927-b76f-eb7a59b588c6",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -4040,12 +4046,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Country of Citizenship"
+      "Label": "Country of Citizenship options: United States, Afghanistan"
     },
     {
       "Tag": "select",
       "Name": "form_c8955344-a27a-4de8-a5a1-b665693090a6",
       "Id": "form_c8955344-a27a-4de8-a5a1-b665693090a6",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -5083,12 +5090,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "Second Country of Citizenship"
+      "Label": "Second Country of Citizenship options: United States, Afghanistan"
     },
     {
       "Tag": "select",
       "Name": "form_9942a13b-77f8-47ff-a3a0-4540f669dd4f",
       "Id": "form_9942a13b-77f8-47ff-a3a0-4540f669dd4f",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -5122,12 +5130,13 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "I am a(n)"
+      "Label": "I am a(n) . Options: Active Duty Member, Child of Active Duty Member"
     },
     {
       "Tag": "select",
       "Name": "form_532c5a7a-8227-4acb-a512-269976a13d42",
       "Id": "form_532c5a7a-8227-4acb-a512-269976a13d42",
+      "Class": null,
       "Disabled": null,
       "Options": [
         {
@@ -5149,7 +5158,7 @@
       ],
       "Required": null,
       "Children": [],
-      "Label": "of the"
+      "Label": "I am a(n) of the . Options: Military, National Guard"
     }
   ],
   "textarea": [
@@ -5167,7 +5176,7 @@
       "Id": "form_7acca173-a4d7-4b06-895d-8962b4541940",
       "Required": null,
       "Children": [],
-      "Label": "Where else are you applying? Please indicate both the universities and the departments/programs you are applying to"
+      "Label": "Where else are you applying? Please indicate both the universities and the departments/programs you are applying to."
     },
     {
       "Tag": "textarea",
@@ -5175,7 +5184,7 @@
       "Id": "form_b48c5fc7-352c-4d53-bc25-3427977a0d4e",
       "Required": null,
       "Children": [],
-      "Label": "If you are applying to another program at Emory, please list it or them here"
+      "Label": "If you are applying to another program at Emory, please list it or them here:"
     }
   ]
 }
