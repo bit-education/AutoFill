@@ -1,0 +1,400 @@
+[
+    {
+        "Tag": "input",
+        "Name": "first",
+        "Id": "first",
+        "Label": "First (Given)",
+        "Key": "First Name"
+    },
+    {
+        "Tag": "input",
+        "Name": "middle",
+        "Id": "middle",
+        "Label": "Middle",
+        "Key": "Middle Name"
+    },
+    {
+        "Tag": "input",
+        "Name": "last",
+        "Id": "last",
+        "Label": "Last (Family)",
+        "Key": "Last Name"
+    },
+    {
+        "Tag": "input",
+        "Name": "preferred",
+        "Id": "preferred",
+        "Label": "Preferred First",
+        "Key": "Preferred Name"
+    },
+    {
+        "Tag": "input",
+        "Name": "alias",
+        "Id": "alias",
+        "Label": "Other Last Names Used",
+        "Key": "Other Last Names Used"
+    },
+    {
+        "Tag": "input",
+        "Name": "address__0__city",
+        "Id": "address__0__city",
+        "Label": "New Address. City",
+        "Key": "Address"
+    },
+    {
+        "Tag": "input",
+        "Name": "address__0__postal",
+        "Id": "address__0__postal",
+        "Label": "New Address. Postal Code",
+        "Key": "Address"
+    },
+    {
+        "Tag": "input",
+        "Name": "address_1_city",
+        "Id": "address_1_city",
+        "Label": "Permanent Address. City",
+        "Key": "Address"
+    },
+    {
+        "Tag": "input",
+        "Name": "address_1_postal",
+        "Id": "address_1_postal",
+        "Label": "Permanent Address. Postal Code",
+        "Key": "Address"
+    },
+    {
+        "Tag": "input",
+        "Name": "address_2_city",
+        "Id": "address_2_city",
+        "Label": "City",
+        "Key": "Address"
+    },
+    {
+        "Tag": "input",
+        "Name": "address_2_postal",
+        "Id": "address_2_postal",
+        "Label": "Postal Code",
+        "Key": "Address"
+    },
+    {
+        "Tag": "input",
+        "Name": "phone",
+        "Id": "phone",
+        "Label": "Daytime Telephone Number",
+        "Key": "Telephone"
+    },
+    {
+        "Tag": "input",
+        "Name": "business",
+        "Id": "business",
+        "Label": "Evening Telephone Number",
+        "Key": "Telephone"
+    },
+    {
+        "Tag": "input",
+        "Name": "mobile",
+        "Id": "mobile",
+        "Label": "Mobile Telephone Number",
+        "Key": "Telephone"
+    },
+    {
+        "Tag": "input",
+        "Name": "resident",
+        "Id": "resident",
+        "Label": "Residency Status. U.S. Permanent Resident",
+        "Key": "Residency Status"
+    },
+    {
+        "Tag": "input",
+        "Name": "ssn",
+        "Id": "ssn",
+        "Label": "Social Security Number (omit dashes)",
+        "Key": "ID"
+    },
+    {
+        "Tag": "input",
+        "Name": "hispanic",
+        "Id": "hispanic_1",
+        "Label": "Are you Hispanic or Latino? Yes",
+        "Key": "Ethnicity"
+    },
+    {
+        "Tag": "input",
+        "Name": "hispanic",
+        "Id": "hispanic_0",
+        "Label": "Are you Hispanic or Latino? No",
+        "Key": "Ethnicity"
+    },
+    {
+        "Tag": "input",
+        "Name": "race",
+        "Id": "race_adfcfcb5-5394-4fca-991f-2e460e924fee",
+        "Label": "American Indian or Alaska Native",
+        "Key": "Race"
+    },
+    {
+        "Tag": "input",
+        "Name": "race",
+        "Id": "race_5c5b0b7a-73a6-4797-8d82-562aa4e31107",
+        "Label": "Asian",
+        "Key": "Race"
+    },
+    {
+        "Tag": "input",
+        "Name": "race",
+        "Id": "race_12b49f2e-6e7d-4402-b58d-c6eab43b789a",
+        "Label": "Black or African American",
+        "Key": "Race"
+    },
+    {
+        "Tag": "input",
+        "Name": "race",
+        "Id": "race_3815164f-99e7-4333-9006-4b6a3e3f3a0e",
+        "Label": "Native Hawaiian or Other Pacific Islander",
+        "Key": "Race"
+    },
+    {
+        "Tag": "input",
+        "Name": "race",
+        "Id": "race_cd6b1bac-e441-4649-a7d3-a61ccf8c860c",
+        "Label": "White",
+        "Key": "Race"
+    },
+    {
+        "Tag": "select",
+        "Name": "suffix",
+        "Id": "suffix",
+        "Label": "Suffix. Options are: [ , Jr., Sr.]",
+        "Key": "Suffix"
+    },
+    {
+        "Tag": "select",
+        "Name": "address__0__type",
+        "Id": null,
+        "Class": [
+            "address_type"
+        ],
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address__0__effective_m",
+        "Id": "address__0__effective_m",
+        "Label": "New Address. Valid From (optional). Options are: [ , January, February]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address__0__effective_d",
+        "Id": "address__0__effective_d",
+        "Label": "New Address. Valid From (optional). Options are: [ , 1, 2]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address__0__effective_y",
+        "Id": "address__0__effective_y",
+        "Label": "New Address. Valid From (optional). Options are: [ , 2024, 2025]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address__0__expires_m",
+        "Id": "address__0__expires_m",
+        "Label": "New Address. Valid Until (optional). Options are: [ , January, February]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address__0__expires_d",
+        "Id": "address__0__expires_d",
+        "Label": "New Address. Valid Until (optional). Options are: [ , 1, 2]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address__0__expires_y",
+        "Id": "address__0__expires_y",
+        "Label": "New Address. Valid Until (optional). Options are: [ , 2024, 2025]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_1_country",
+        "Id": "address_1_country",
+        "Label": "Permanent Address. Country. Options are: [ , Afghanistan, Aland Islands]",
+        "Key": "Birth Country"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_1_type",
+        "Id": null,
+        "Class": [
+            "address_type"
+        ],
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_1_effective_m",
+        "Id": "address_1_effective_m",
+        "Label": "Permanent Address. Valid From (optional). Options are: [ , January, February]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_1_effective_d",
+        "Id": "address_1_effective_d",
+        "Label": "Permanent Address. Valid From (optional). Options are: [ , 1, 2]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_1_effective_y",
+        "Id": "address_1_effective_y",
+        "Label": "Permanent Address. Valid From (optional). Options are: [ , 2024, 2025]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_1_expires_m",
+        "Id": "address_1_expires_m",
+        "Label": "Permanent Address. Valid Until (optional). Options are: [ , January, February]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_1_expires_d",
+        "Id": "address_1_expires_d",
+        "Label": "Permanent Address. Valid Until (optional). Options are: [ , 1, 2]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_1_expires_y",
+        "Id": "address_1_expires_y",
+        "Label": "Permanent Address. Valid Until (optional). Options are: [ , 2024, 2025]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_2_country",
+        "Id": "address_2_country",
+        "Label": "Mailing Address. Country. Options are: [ , Afghanistan, Aland Islands]",
+        "Key": "Birth Country"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_2_type",
+        "Id": null,
+        "Class": [
+            "address_type"
+        ],
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_2_effective_m",
+        "Id": "address_2_effective_m",
+        "Label": "Valid From - Month. Options are: [ , January, February]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_2_effective_d",
+        "Id": "address_2_effective_d",
+        "Label": "Valid From - Day. Options are: [ , 1, 2]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_2_effective_y",
+        "Id": "address_2_effective_y",
+        "Label": "Valid From - Year. Options are: [ , 2024, 2025]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_2_expires_m",
+        "Id": "address_2_expires_m",
+        "Label": "Valid Until - Month. Options are: [ , January, February]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_2_expires_d",
+        "Id": "address_2_expires_d",
+        "Label": "Valid Until - Day. Options are: [ , 1, 2]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "address_2_expires_y",
+        "Id": "address_2_expires_y",
+        "Label": "Valid Until - Year. Options are: [ , 2024, 2025]",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "gender",
+        "Id": "gender",
+        "Label": "Gender. Options are: [ , Female, Male]",
+        "Key": "Gender"
+    },
+    {
+        "Tag": "select",
+        "Name": "birthdate_m",
+        "Id": "birthdate_m",
+        "Label": "Birthdate - Month. Options are: [ , January, February]",
+        "Key": "Birth Date"
+    },
+    {
+        "Tag": "select",
+        "Name": "birthdate_d",
+        "Id": "birthdate_d",
+        "Label": "Birthdate - Day. Options are: [ , 1, 2]",
+        "Key": "Birth Date"
+    },
+    {
+        "Tag": "select",
+        "Name": "birthdate_y",
+        "Id": "birthdate_y",
+        "Label": "Birthdate - Year. Options are: [ , 2024, 2023]",
+        "Key": "Birth Date"
+    },
+    {
+        "Tag": "select",
+        "Name": "citizenship1",
+        "Id": "citizenship1",
+        "Label": "Primary Citizenship. Options are: [ , United States, Afghanistan]",
+        "Key": "Birth Country"
+    },
+    {
+        "Tag": "select",
+        "Name": "citizenship2",
+        "Id": "citizenship2",
+        "Label": "Dual Citizenship. Options are: [ , United States, Afghanistan]",
+        "Key": "Birth Country"
+    },
+    {
+        "Tag": "textarea",
+        "Name": "address__0__street",
+        "Id": "address__0__street",
+        "Label": "New Address. Street Address",
+        "Key": "Address"
+    },
+    {
+        "Tag": "textarea",
+        "Name": "address_1_street",
+        "Id": "address_1_street",
+        "Label": "Permanent Address. Street Address",
+        "Key": "Address"
+    },
+    {
+        "Tag": "textarea",
+        "Name": "address_2_street",
+        "Id": "address_2_street",
+        "Label": "Mailing Address. Street Address",
+        "Key": "Address"
+    }
+]

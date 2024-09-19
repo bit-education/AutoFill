@@ -1,0 +1,228 @@
+[
+    {
+        "Tag": "input",
+        "Name": "first",
+        "Id": "first",
+        "Label": "First (Given)",
+        "Key": "First Name"
+    },
+    {
+        "Tag": "input",
+        "Name": "middle",
+        "Id": "middle",
+        "Label": "Middle",
+        "Key": "Middle Name"
+    },
+    {
+        "Tag": "input",
+        "Name": "last",
+        "Id": "last",
+        "Label": "Last (Family)",
+        "Key": "Last Name"
+    },
+    {
+        "Tag": "input",
+        "Name": "preferred",
+        "Id": "preferred",
+        "Label": "Preferred First",
+        "Key": "Preferred Name"
+    },
+    {
+        "Tag": "input",
+        "Name": "alias",
+        "Id": "alias",
+        "Label": "Other Last Names Used",
+        "Key": "Other Last Names Used"
+    },
+    {
+        "Tag": "input",
+        "Name": "address__0__city",
+        "Id": "address__0__city",
+        "Label": "City",
+        "Key": "Address"
+    },
+    {
+        "Tag": "input",
+        "Name": "address__0__postal",
+        "Id": "address__0__postal",
+        "Label": "Postal Code",
+        "Key": "Address"
+    },
+    {
+        "Tag": "input",
+        "Name": "phone",
+        "Id": "phone",
+        "Label": "Primary Phone",
+        "Key": "Telephone"
+    },
+    {
+        "Tag": "input",
+        "Name": "mobile",
+        "Id": "mobile",
+        "Label": "Mobile",
+        "Key": "Telephone"
+    },
+    {
+        "Tag": "input",
+        "Name": "resident",
+        "Id": "resident",
+        "Label": "Residency Status - U.S. Permanent Resident",
+        "Key": "Residency Status"
+    },
+    {
+        "Tag": "input",
+        "Name": "ssn",
+        "Id": "ssn",
+        "Label": "Social Security Number (omit dashes)",
+        "Key": "ID"
+    },
+    {
+        "Tag": "input",
+        "Name": "hispanic",
+        "Id": "hispanic_1",
+        "Label": "Race/Ethnicity - Are you Hispanic or Latino? Yes",
+        "Key": "Race"
+    },
+    {
+        "Tag": "input",
+        "Name": "hispanic",
+        "Id": "hispanic_0",
+        "Label": "Race/Ethnicity - Are you Hispanic or Latino? No",
+        "Key": "Race"
+    },
+    {
+        "Tag": "input",
+        "Name": "race",
+        "Id": "race_adfcfcb5-5394-4fca-991f-2e460e924fee",
+        "Label": "Race/Ethnicity - American Indian or Alaska Native",
+        "Key": "Race"
+    },
+    {
+        "Tag": "input",
+        "Name": "race",
+        "Id": "race_5c5b0b7a-73a6-4797-8d82-562aa4e31107",
+        "Label": "Race/Ethnicity - Asian",
+        "Key": "Ethnicity"
+    },
+    {
+        "Tag": "input",
+        "Name": "race",
+        "Id": "race_12b49f2e-6e7d-4402-b58d-c6eab43b789a",
+        "Label": "Race/Ethnicity - Black or African American",
+        "Key": "Race"
+    },
+    {
+        "Tag": "input",
+        "Name": "race",
+        "Id": "race_3815164f-99e7-4333-9006-4b6a3e3f3a0e",
+        "Label": "Race/Ethnicity - Native Hawaiian or Other Pacific",
+        "Key": "Race"
+    },
+    {
+        "Tag": "input",
+        "Name": "race",
+        "Id": "race_cd6b1bac-e441-4649-a7d3-a61ccf8c860c",
+        "Label": "Race/Ethnicity - White",
+        "Key": "Race"
+    },
+    {
+        "Tag": "select",
+        "Name": "prefix",
+        "Id": "prefix",
+        "Label": "Prefix Dr., Mr. etc.",
+        "Key": "Gender"
+    },
+    {
+        "Tag": "select",
+        "Name": "suffix",
+        "Id": "suffix",
+        "Label": "Suffix Jr., Sr. etc.",
+        "Key": "Suffix"
+    },
+    {
+        "Tag": "select",
+        "Name": "address__0__type",
+        "Class": [
+            "address_type"
+        ],
+        "Label": "Address Type Mailing Address, Permanent Address",
+        "Key": "Address"
+    },
+    {
+        "Tag": "select",
+        "Name": "sex",
+        "Id": "sex",
+        "Label": "Legal Sex Female, Male",
+        "Key": "Gender"
+    },
+    {
+        "Tag": "select",
+        "Name": "gender_identity",
+        "Id": "gender_identity",
+        "Label": "Gender Identity Man Identified, Non-Binary",
+        "Key": "Gender"
+    },
+    {
+        "Tag": "select",
+        "Name": "birthdate_m",
+        "Id": "birthdate_m",
+        "Label": "Birthdate Month",
+        "Key": "Birth Date"
+    },
+    {
+        "Tag": "select",
+        "Name": "birthdate_d",
+        "Id": "birthdate_d",
+        "Label": "Birthdate Day (options: , 1, 2)",
+        "Key": "Birth Date"
+    },
+    {
+        "Tag": "select",
+        "Name": "birthdate_y",
+        "Id": "birthdate_y",
+        "Label": "Birthdate Year (options: , 2023, 2022)",
+        "Key": "Birth Date"
+    },
+    {
+        "Tag": "select",
+        "Name": "birthnation",
+        "Id": "birthnation",
+        "Label": "Birth Country (options: , Afghanistan, Aland Islands)",
+        "Key": "Birth Country"
+    },
+    {
+        "Tag": "select",
+        "Name": "language",
+        "Id": "language",
+        "Label": "Native Language (options: , English, Abkhazian)",
+        "Key": "Ethnicity"
+    },
+    {
+        "Tag": "select",
+        "Name": "citizenship1",
+        "Id": "citizenship1",
+        "Label": "Primary Citizenship (options: , United States, Afghanistan)",
+        "Key": "Residency Status"
+    },
+    {
+        "Tag": "select",
+        "Name": "citizenship2",
+        "Id": "citizenship2",
+        "Label": "Dual Citizenship (options: , United States, Afghanistan)",
+        "Key": "Residency Status"
+    },
+    {
+        "Tag": "select",
+        "Name": "visa",
+        "Id": "visa",
+        "Label": "Current Visa Type (options: , F-1 Academic Student, H-1 Temporary Worker)",
+        "Key": "Visa"
+    },
+    {
+        "Tag": "textarea",
+        "Name": "address__0__street",
+        "Id": "address__0__street",
+        "Label": "Street Address",
+        "Key": "Address"
+    }
+]
