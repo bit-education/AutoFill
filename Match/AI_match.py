@@ -1,11 +1,12 @@
 """
-AI匹配数据库条目与html内容
+AI匹配数据库条目与html对应label，并将匹配的条目放入对应html元素中
 """
 import json
 import tiktoken
 import copy
 from openai import OpenAI
 
+test_U = "nyu"
 encoding = tiktoken.encoding_for_model("gpt-4")
 
 
@@ -14,28 +15,22 @@ def AI_match(elements, database):
     client = OpenAI(api_key=API_KEY)
 
     matching_prompt = f"""
-    You are given a list of HTML elements extracted from a webpage and a dictionary of student information. Your task is:
-        1. Match the "Label" attribute of each elements to the corresponding data in the student information dictionary.
-        2. Ensure that the values are properly formatted and correctly placed in the HTML input fields.
-        3. If an element does not have a direct match, the content most likely to be filled with the "Label" attribute is extracted based on the relevant data. Note that this content must be based on student data.
-        4. Return the appropriate "Value" attribute which will be used to insert the student information into the elements.
-        Here are the data:
+        Here is the student data dictionary:
         {database}
         HTML elements:
         {elements}
     """
-
     _messages = [
         {
             "role": "system",
-            "content": "You are an expert at matching dataforms' entries with HTML elements based on the meaning and context. Rely on your human-like understanding to make the best match based on meaning and context. Ensure you do not make obvious mistake in your answer. "},
+            "content": "You are a data processing expert who can match the html elements with the student information and add the key into the corresponding element."},
         {
             "role": "user",
             "content": matching_prompt}
     ]
 
     completion = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4o-2024-08-06",
         messages=_messages,
         functions=[
             {
@@ -52,16 +47,20 @@ def AI_match(elements, database):
                                     "Tag": {"type": "string", "description": "The tag attribute of the element."},
                                     "Id": {"type": "string", "description": "The id attribute of the element."},
                                     "Label": {"type": "string", "description": "The label attribute of the element."},
-                                    "Value": {"type": "string", "description": "The value attribute of the element."},
-                                }
+                                    "Key": {"type": "string",
+                                            "description": "The key of the student data dictionary which can match the meaning with the element's label. Note that label is preferred for matching. If the id, name, and class attributes are also related, they can be combined with the meaning of the label to match. If no direct match exists for the element, use the most possibly fitting key."},
+                                },
+                                "description": "The element of matching result which has been added key attribute.",
                             },
-                            "required": ["Tag", "Id", "Label", "Value"]
+                            "required": ["Tag", "Id", "Key"]
                         }
                     },
                 }
             }
         ],
-        function_call="auto",
+        function_call={
+            "name": "match_entries"
+        },
     )
     result = completion.choices[0].message.function_call.arguments
     output_tokens = len(encoding.encode(result))
@@ -72,15 +71,36 @@ def AI_match(elements, database):
     return json.loads(result)['result']
 
 
+# 处理测试用例
+def read_Utest_json():
+    Utest_json = json.load(open(f'../result/final/{test_U}_final_result.json', 'r', encoding='utf-8'))
+    unnecessary_key = ['Type', 'Required', 'Children', 'Options', 'Disabled']
+    Utest = []
+    # 删除不需要的键值对
+    for input_field in Utest_json['input']:
+        for key in unnecessary_key:
+            if key in input_field:
+                input_field.pop(key)
+        Utest.append(input_field)
+    for select_field in Utest_json['select']:
+        for key in unnecessary_key:
+            if key in select_field:
+                select_field.pop(key)
+        Utest.append(select_field)
+    for textarea_field in Utest_json['textarea']:
+        for key in unnecessary_key:
+            if key in textarea_field:
+                textarea_field.pop(key)
+        Utest.append(textarea_field)
+    return Utest
+
+
 # 测试用例
 def test():
     data = json.load(open('./data/Student_data.json', 'r', encoding='utf-8'))
-    Utest_json = json.load(open('../result/final/nyu_final_result.json', 'r', encoding='utf-8'))
-    Utest = copy.deepcopy(Utest_json['input'])
-    Utest.extend(Utest_json['select'])
-    Utest.extend(Utest_json['textarea'])
+    Utest = read_Utest_json()
     results = AI_match(Utest, data[-1])
-    with open('result.json', 'w', encoding='utf-8') as f:
+    with open(f'./results/{test_U}_result.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
 
 
