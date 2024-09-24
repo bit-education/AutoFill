@@ -6,7 +6,7 @@ import tiktoken
 import copy
 from openai import OpenAI
 
-test_U = "nyu"
+test_U = "yale"
 encoding = tiktoken.encoding_for_model("gpt-4")
 
 
@@ -23,7 +23,7 @@ def AI_match(elements, database):
     _messages = [
         {
             "role": "system",
-            "content": "You are a data processing expert who can match the html elements with the student information and add the key into the corresponding element."},
+            "content": "You are a data processing expert who can match the html elements with keys of the student information and add the key into the corresponding element."},
         {
             "role": "user",
             "content": matching_prompt}
@@ -48,7 +48,7 @@ def AI_match(elements, database):
                                     "Id": {"type": "string", "description": "The id attribute of the element."},
                                     "Label": {"type": "string", "description": "The label attribute of the element."},
                                     "Key": {"type": "string",
-                                            "description": "The key of the student data dictionary which can match the meaning with the element's label. Note that label is preferred for matching. If the id, name, and class attributes are also related, they can be combined with the meaning of the label to match. If no direct match exists for the element, use the most possibly fitting key."},
+                                            "description": "The key of the student data dictionary which can match the meaning with the element's label. Note that label is preferred for matching and the value of student dictionary should not be used to match. If the id, name, and class attributes are also related, they can be combined with the meaning of the label to match. If no direct match exists for the element, use the most possibly fitting key."},
                                 },
                                 "description": "The element of matching result which has been added key attribute.",
                             },
