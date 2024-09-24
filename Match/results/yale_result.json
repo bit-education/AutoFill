@@ -109,61 +109,62 @@
         "Name": "ssn",
         "Id": "ssn",
         "Label": "Social Security Number (omit dashes)",
-        "Key": "ID"
+        "Key": ""
     },
     {
         "Tag": "input",
         "Name": "hispanic",
         "Id": "hispanic_1",
         "Label": "Are you Hispanic or Latino? Yes",
-        "Key": "Ethnicity"
+        "Key": "Ethnicity/Race"
     },
     {
         "Tag": "input",
         "Name": "hispanic",
         "Id": "hispanic_0",
         "Label": "Are you Hispanic or Latino? No",
-        "Key": "Ethnicity"
+        "Key": "Ethnicity/Race"
     },
     {
         "Tag": "input",
         "Name": "race",
         "Id": "race_adfcfcb5-5394-4fca-991f-2e460e924fee",
         "Label": "American Indian or Alaska Native",
-        "Key": "Race"
+        "Key": "Ethnicity/Race"
     },
     {
         "Tag": "input",
         "Name": "race",
         "Id": "race_5c5b0b7a-73a6-4797-8d82-562aa4e31107",
         "Label": "Asian",
-        "Key": "Race"
+        "Key": "Ethnicity/Race"
     },
     {
         "Tag": "input",
         "Name": "race",
         "Id": "race_12b49f2e-6e7d-4402-b58d-c6eab43b789a",
         "Label": "Black or African American",
-        "Key": "Race"
+        "Key": "Ethnicity/Race"
     },
     {
         "Tag": "input",
         "Name": "race",
         "Id": "race_3815164f-99e7-4333-9006-4b6a3e3f3a0e",
         "Label": "Native Hawaiian or Other Pacific Islander",
-        "Key": "Race"
+        "Key": "Ethnicity/Race"
     },
     {
         "Tag": "input",
         "Name": "race",
         "Id": "race_cd6b1bac-e441-4649-a7d3-a61ccf8c860c",
         "Label": "White",
-        "Key": "Race"
+        "Key": "Ethnicity/Race"
     },
     {
         "Tag": "select",
         "Name": "suffix",
         "Id": "suffix",
+        "Class": null,
         "Label": "Suffix. Options are: [ , Jr., Sr.]",
         "Key": "Suffix"
     },
@@ -180,6 +181,7 @@
         "Tag": "select",
         "Name": "address__0__effective_m",
         "Id": "address__0__effective_m",
+        "Class": null,
         "Label": "New Address. Valid From (optional). Options are: [ , January, February]",
         "Key": "Address"
     },
@@ -187,6 +189,7 @@
         "Tag": "select",
         "Name": "address__0__effective_d",
         "Id": "address__0__effective_d",
+        "Class": null,
         "Label": "New Address. Valid From (optional). Options are: [ , 1, 2]",
         "Key": "Address"
     },
@@ -194,6 +197,7 @@
         "Tag": "select",
         "Name": "address__0__effective_y",
         "Id": "address__0__effective_y",
+        "Class": null,
         "Label": "New Address. Valid From (optional). Options are: [ , 2024, 2025]",
         "Key": "Address"
     },
@@ -201,6 +205,7 @@
         "Tag": "select",
         "Name": "address__0__expires_m",
         "Id": "address__0__expires_m",
+        "Class": null,
         "Label": "New Address. Valid Until (optional). Options are: [ , January, February]",
         "Key": "Address"
     },
@@ -208,6 +213,7 @@
         "Tag": "select",
         "Name": "address__0__expires_d",
         "Id": "address__0__expires_d",
+        "Class": null,
         "Label": "New Address. Valid Until (optional). Options are: [ , 1, 2]",
         "Key": "Address"
     },
@@ -215,6 +221,7 @@
         "Tag": "select",
         "Name": "address__0__expires_y",
         "Id": "address__0__expires_y",
+        "Class": null,
         "Label": "New Address. Valid Until (optional). Options are: [ , 2024, 2025]",
         "Key": "Address"
     },
@@ -222,8 +229,9 @@
         "Tag": "select",
         "Name": "address_1_country",
         "Id": "address_1_country",
+        "Class": null,
         "Label": "Permanent Address. Country. Options are: [ , Afghanistan, Aland Islands]",
-        "Key": "Birth Country"
+        "Key": "Address"
     },
     {
         "Tag": "select",
@@ -238,6 +246,7 @@
         "Tag": "select",
         "Name": "address_1_effective_m",
         "Id": "address_1_effective_m",
+        "Class": null,
         "Label": "Permanent Address. Valid From (optional). Options are: [ , January, February]",
         "Key": "Address"
     },
@@ -245,6 +254,7 @@
         "Tag": "select",
         "Name": "address_1_effective_d",
         "Id": "address_1_effective_d",
+        "Class": null,
         "Label": "Permanent Address. Valid From (optional). Options are: [ , 1, 2]",
         "Key": "Address"
     },
@@ -252,6 +262,7 @@
         "Tag": "select",
         "Name": "address_1_effective_y",
         "Id": "address_1_effective_y",
+        "Class": null,
         "Label": "Permanent Address. Valid From (optional). Options are: [ , 2024, 2025]",
         "Key": "Address"
     },
@@ -259,6 +270,7 @@
         "Tag": "select",
         "Name": "address_1_expires_m",
         "Id": "address_1_expires_m",
+        "Class": null,
         "Label": "Permanent Address. Valid Until (optional). Options are: [ , January, February]",
         "Key": "Address"
     },
@@ -266,6 +278,7 @@
         "Tag": "select",
         "Name": "address_1_expires_d",
         "Id": "address_1_expires_d",
+        "Class": null,
         "Label": "Permanent Address. Valid Until (optional). Options are: [ , 1, 2]",
         "Key": "Address"
     },
@@ -273,6 +286,7 @@
         "Tag": "select",
         "Name": "address_1_expires_y",
         "Id": "address_1_expires_y",
+        "Class": null,
         "Label": "Permanent Address. Valid Until (optional). Options are: [ , 2024, 2025]",
         "Key": "Address"
     },
@@ -280,8 +294,9 @@
         "Tag": "select",
         "Name": "address_2_country",
         "Id": "address_2_country",
+        "Class": null,
         "Label": "Mailing Address. Country. Options are: [ , Afghanistan, Aland Islands]",
-        "Key": "Birth Country"
+        "Key": "Address"
     },
     {
         "Tag": "select",
@@ -296,6 +311,7 @@
         "Tag": "select",
         "Name": "address_2_effective_m",
         "Id": "address_2_effective_m",
+        "Class": null,
         "Label": "Valid From - Month. Options are: [ , January, February]",
         "Key": "Address"
     },
@@ -303,6 +319,7 @@
         "Tag": "select",
         "Name": "address_2_effective_d",
         "Id": "address_2_effective_d",
+        "Class": null,
         "Label": "Valid From - Day. Options are: [ , 1, 2]",
         "Key": "Address"
     },
@@ -310,6 +327,7 @@
         "Tag": "select",
         "Name": "address_2_effective_y",
         "Id": "address_2_effective_y",
+        "Class": null,
         "Label": "Valid From - Year. Options are: [ , 2024, 2025]",
         "Key": "Address"
     },
@@ -317,6 +335,7 @@
         "Tag": "select",
         "Name": "address_2_expires_m",
         "Id": "address_2_expires_m",
+        "Class": null,
         "Label": "Valid Until - Month. Options are: [ , January, February]",
         "Key": "Address"
     },
@@ -324,6 +343,7 @@
         "Tag": "select",
         "Name": "address_2_expires_d",
         "Id": "address_2_expires_d",
+        "Class": null,
         "Label": "Valid Until - Day. Options are: [ , 1, 2]",
         "Key": "Address"
     },
@@ -331,6 +351,7 @@
         "Tag": "select",
         "Name": "address_2_expires_y",
         "Id": "address_2_expires_y",
+        "Class": null,
         "Label": "Valid Until - Year. Options are: [ , 2024, 2025]",
         "Key": "Address"
     },
@@ -338,6 +359,7 @@
         "Tag": "select",
         "Name": "gender",
         "Id": "gender",
+        "Class": null,
         "Label": "Gender. Options are: [ , Female, Male]",
         "Key": "Gender"
     },
@@ -345,6 +367,7 @@
         "Tag": "select",
         "Name": "birthdate_m",
         "Id": "birthdate_m",
+        "Class": null,
         "Label": "Birthdate - Month. Options are: [ , January, February]",
         "Key": "Birth Date"
     },
@@ -352,6 +375,7 @@
         "Tag": "select",
         "Name": "birthdate_d",
         "Id": "birthdate_d",
+        "Class": null,
         "Label": "Birthdate - Day. Options are: [ , 1, 2]",
         "Key": "Birth Date"
     },
@@ -359,6 +383,7 @@
         "Tag": "select",
         "Name": "birthdate_y",
         "Id": "birthdate_y",
+        "Class": null,
         "Label": "Birthdate - Year. Options are: [ , 2024, 2023]",
         "Key": "Birth Date"
     },
@@ -366,6 +391,7 @@
         "Tag": "select",
         "Name": "citizenship1",
         "Id": "citizenship1",
+        "Class": null,
         "Label": "Primary Citizenship. Options are: [ , United States, Afghanistan]",
         "Key": "Birth Country"
     },
@@ -373,6 +399,7 @@
         "Tag": "select",
         "Name": "citizenship2",
         "Id": "citizenship2",
+        "Class": null,
         "Label": "Dual Citizenship. Options are: [ , United States, Afghanistan]",
         "Key": "Birth Country"
     },

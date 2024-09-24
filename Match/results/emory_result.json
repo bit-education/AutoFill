@@ -67,19 +67,223 @@
         "Name": "form_a926704f-4ae9-43a4-be86-9aa15bf354b3",
         "Id": "form_a926704f-4ae9-43a4-be86-9aa15bf354b3_1",
         "Label": "Is English your first language? Yes",
-        "Key": "Ethnicity"
+        "Key": "Native Language"
     },
     {
         "Tag": "input",
         "Name": "form_a926704f-4ae9-43a4-be86-9aa15bf354b3",
         "Id": "form_a926704f-4ae9-43a4-be86-9aa15bf354b3_2",
         "Label": "Is English your first language? No",
-        "Key": "Ethnicity"
+        "Key": "Native Language"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_0c489dcd-218a-4fae-82d8-07a12d480fcd",
+        "Id": "form_0c489dcd-218a-4fae-82d8-07a12d480fcd_1",
+        "Label": "Evaluates English proficiency. Speaking Proficiency. High",
+        "Key": "Speaking Proficiency"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_0c489dcd-218a-4fae-82d8-07a12d480fcd",
+        "Id": "form_0c489dcd-218a-4fae-82d8-07a12d480fcd_2",
+        "Label": "Evaluates English proficiency. Speaking Proficiency. Moderate",
+        "Key": "Speaking Proficiency"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_0c489dcd-218a-4fae-82d8-07a12d480fcd",
+        "Id": "form_0c489dcd-218a-4fae-82d8-07a12d480fcd_3",
+        "Label": "Evaluates English proficiency. Speaking Proficiency. Low",
+        "Key": "Speaking Proficiency"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_c1d8954f-3eff-4386-a00a-d37a14f0895a",
+        "Id": "form_c1d8954f-3eff-4386-a00a-d37a14f0895a_1",
+        "Label": "Evaluates English proficiency. Reading Proficiency. High",
+        "Key": "Reading Proficiency"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_c1d8954f-3eff-4386-a00a-d37a14f0895a",
+        "Id": "form_c1d8954f-3eff-4386-a00a-d37a14f0895a_2",
+        "Label": "Evaluates English proficiency. Reading Proficiency. Moderate",
+        "Key": "Reading Proficiency"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_c1d8954f-3eff-4386-a00a-d37a14f0895a",
+        "Id": "form_c1d8954f-3eff-4386-a00a-d37a14f0895a_3",
+        "Label": "Evaluates English proficiency. Reading Proficiency. Low",
+        "Key": "Reading Proficiency"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_48d7b6bb-c655-4e16-92da-a00f9187e3bb",
+        "Id": "form_48d7b6bb-c655-4e16-92da-a00f9187e3bb_1",
+        "Label": "Evaluates English proficiency. Writing Ability. High",
+        "Key": "Writing Ability"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_48d7b6bb-c655-4e16-92da-a00f9187e3bb",
+        "Id": "form_48d7b6bb-c655-4e16-92da-a00f9187e3bb_2",
+        "Label": "Evaluates English proficiency. Writing Ability. Moderate",
+        "Key": "Writing Ability"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_48d7b6bb-c655-4e16-92da-a00f9187e3bb",
+        "Id": "form_48d7b6bb-c655-4e16-92da-a00f9187e3bb_3",
+        "Label": "Evaluates English proficiency. Writing Ability. Low",
+        "Key": "Writing Ability"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_ba5fe44d-7fc2-418c-9905-b77a8d03e847",
+        "Id": "form_ba5fe44d-7fc2-418c-9905-b77a8d03e847_1",
+        "Label": "Have you completed a bachelor's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? Yes",
+        "Key": "School"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_ba5fe44d-7fc2-418c-9905-b77a8d03e847",
+        "Id": "form_ba5fe44d-7fc2-418c-9905-b77a8d03e847_2",
+        "Label": "Have you completed a bachelor's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? No",
+        "Key": "School"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_6e9d73e2-4cf9-40c9-81f3-bd768032bde2",
+        "Id": "form_6e9d73e2-4cf9-40c9-81f3-bd768032bde2_1",
+        "Label": "Have you completed a master's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? Yes",
+        "Key": "School"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_6e9d73e2-4cf9-40c9-81f3-bd768032bde2",
+        "Id": "form_6e9d73e2-4cf9-40c9-81f3-bd768032bde2_2",
+        "Label": "Have you completed a master's degree in an English-speaking country or at an institution that uses English as the primary medium of instruction? No",
+        "Key": "School"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_15124540-8045-43ef-859d-d6cba4bca84d",
+        "Id": "form_15124540-8045-43ef-859d-d6cba4bca84d_1",
+        "Label": "Sex, as recorded on your birth certificate or similar legal document. Female",
+        "Key": "Gender"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_15124540-8045-43ef-859d-d6cba4bca84d",
+        "Id": "form_15124540-8045-43ef-859d-d6cba4bca84d_2",
+        "Label": "Sex, as recorded on your birth certificate or similar legal document. Male",
+        "Key": "Gender"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_1",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Agender",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_2",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Bigender",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_3",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Cisgender Man",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_4",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Cisgender Woman",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_5",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Gender Fluid",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_6",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Gender Non-Conforming",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_7",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Genderqueer",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_8",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Non-Binary",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_9",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Trans or Transgender",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_10",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Transgender Man",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_11",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Transgender Woman",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_12",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Two-Spirit",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_13",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Prefer not to say",
+        "Key": "Gender Identity"
+    },
+    {
+        "Tag": "input",
+        "Name": "form_40c00d1d-618b-4620-8b88-294d1a617e89",
+        "Id": "form_40c00d1d-618b-4620-8b88-294d1a617e89_14",
+        "Label": "Gender Identity: how do you describe yourself? Check all that apply. Identity Not Listed",
+        "Key": "Gender Identity"
     },
     {
         "Tag": "select",
         "Name": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_m",
         "Id": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_m",
+        "Class": null,
         "Label": "Date of Birth Month options: January, February",
         "Key": "Birth Date"
     },
@@ -87,6 +291,7 @@
         "Tag": "select",
         "Name": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_d",
         "Id": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_d",
+        "Class": null,
         "Label": "Date of Birth Day options: 1, 2",
         "Key": "Birth Date"
     },
@@ -94,6 +299,7 @@
         "Tag": "select",
         "Name": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_y",
         "Id": "form_fd677cf6-bd7d-4f9d-8a53-15211736f8ba_y",
+        "Class": null,
         "Label": "Date of Birth Year options: 2024, 2023",
         "Key": "Birth Date"
     },
@@ -101,7 +307,15 @@
         "Tag": "select",
         "Name": "form_90d4b9c6-207c-472c-ad9e-bc9f841da7cb",
         "Id": "form_90d4b9c6-207c-472c-ad9e-bc9f841da7cb",
+        "Class": null,
         "Label": "Country of Birth options: United States, Afghanistan",
         "Key": "Birth Country"
+    },
+    {
+        "Tag": "textarea",
+        "Name": "form_b48c5fc7-352c-4d53-bc25-3427977a0d4e",
+        "Id": "form_b48c5fc7-352c-4d53-bc25-3427977a0d4e",
+        "Label": "If you are applying to another program at Emory, please list it or them here:",
+        "Key": "Status of Application"
     }
 ]

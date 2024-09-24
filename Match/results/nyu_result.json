@@ -38,15 +38,13 @@
         "Tag": "input",
         "Name": "address__0__city",
         "Id": "address__0__city",
-        "Label": "City",
-        "Key": "Address"
+        "Label": "City"
     },
     {
         "Tag": "input",
         "Name": "address__0__postal",
         "Id": "address__0__postal",
-        "Label": "Postal Code",
-        "Key": "Address"
+        "Label": "Postal Code"
     },
     {
         "Tag": "input",
@@ -59,8 +57,7 @@
         "Tag": "input",
         "Name": "mobile",
         "Id": "mobile",
-        "Label": "Mobile",
-        "Key": "Telephone"
+        "Label": "Mobile"
     },
     {
         "Tag": "input",
@@ -73,29 +70,25 @@
         "Tag": "input",
         "Name": "ssn",
         "Id": "ssn",
-        "Label": "Social Security Number (omit dashes)",
-        "Key": "ID"
+        "Label": "Social Security Number (omit dashes)"
     },
     {
         "Tag": "input",
         "Name": "hispanic",
         "Id": "hispanic_1",
-        "Label": "Race/Ethnicity - Are you Hispanic or Latino? Yes",
-        "Key": "Race"
+        "Label": "Race/Ethnicity - Are you Hispanic or Latino? Yes"
     },
     {
         "Tag": "input",
         "Name": "hispanic",
         "Id": "hispanic_0",
-        "Label": "Race/Ethnicity - Are you Hispanic or Latino? No",
-        "Key": "Race"
+        "Label": "Race/Ethnicity - Are you Hispanic or Latino? No"
     },
     {
         "Tag": "input",
         "Name": "race",
         "Id": "race_adfcfcb5-5394-4fca-991f-2e460e924fee",
-        "Label": "Race/Ethnicity - American Indian or Alaska Native",
-        "Key": "Race"
+        "Label": "Race/Ethnicity - American Indian or Alaska Native"
     },
     {
         "Tag": "input",
@@ -108,50 +101,49 @@
         "Tag": "input",
         "Name": "race",
         "Id": "race_12b49f2e-6e7d-4402-b58d-c6eab43b789a",
-        "Label": "Race/Ethnicity - Black or African American",
-        "Key": "Race"
+        "Label": "Race/Ethnicity - Black or African American"
     },
     {
         "Tag": "input",
         "Name": "race",
         "Id": "race_3815164f-99e7-4333-9006-4b6a3e3f3a0e",
-        "Label": "Race/Ethnicity - Native Hawaiian or Other Pacific",
-        "Key": "Race"
+        "Label": "Race/Ethnicity - Native Hawaiian or Other Pacific"
     },
     {
         "Tag": "input",
         "Name": "race",
         "Id": "race_cd6b1bac-e441-4649-a7d3-a61ccf8c860c",
-        "Label": "Race/Ethnicity - White",
-        "Key": "Race"
+        "Label": "Race/Ethnicity - White"
     },
     {
         "Tag": "select",
         "Name": "prefix",
         "Id": "prefix",
-        "Label": "Prefix Dr., Mr. etc.",
-        "Key": "Gender"
+        "Class": null,
+        "Label": "Prefix Dr., Mr. etc."
     },
     {
         "Tag": "select",
         "Name": "suffix",
         "Id": "suffix",
+        "Class": null,
         "Label": "Suffix Jr., Sr. etc.",
         "Key": "Suffix"
     },
     {
         "Tag": "select",
         "Name": "address__0__type",
+        "Id": null,
         "Class": [
             "address_type"
         ],
-        "Label": "Address Type Mailing Address, Permanent Address",
-        "Key": "Address"
+        "Label": "Address Type Mailing Address, Permanent Address"
     },
     {
         "Tag": "select",
         "Name": "sex",
         "Id": "sex",
+        "Class": null,
         "Label": "Legal Sex Female, Male",
         "Key": "Gender"
     },
@@ -159,13 +151,14 @@
         "Tag": "select",
         "Name": "gender_identity",
         "Id": "gender_identity",
-        "Label": "Gender Identity Man Identified, Non-Binary",
-        "Key": "Gender"
+        "Class": null,
+        "Label": "Gender Identity Man Identified, Non-Binary"
     },
     {
         "Tag": "select",
         "Name": "birthdate_m",
         "Id": "birthdate_m",
+        "Class": null,
         "Label": "Birthdate Month",
         "Key": "Birth Date"
     },
@@ -173,6 +166,7 @@
         "Tag": "select",
         "Name": "birthdate_d",
         "Id": "birthdate_d",
+        "Class": null,
         "Label": "Birthdate Day (options: , 1, 2)",
         "Key": "Birth Date"
     },
@@ -180,6 +174,7 @@
         "Tag": "select",
         "Name": "birthdate_y",
         "Id": "birthdate_y",
+        "Class": null,
         "Label": "Birthdate Year (options: , 2023, 2022)",
         "Key": "Birth Date"
     },
@@ -187,6 +182,7 @@
         "Tag": "select",
         "Name": "birthnation",
         "Id": "birthnation",
+        "Class": null,
         "Label": "Birth Country (options: , Afghanistan, Aland Islands)",
         "Key": "Birth Country"
     },
@@ -194,27 +190,29 @@
         "Tag": "select",
         "Name": "language",
         "Id": "language",
+        "Class": null,
         "Label": "Native Language (options: , English, Abkhazian)",
-        "Key": "Ethnicity"
+        "Key": "Native Language"
     },
     {
         "Tag": "select",
         "Name": "citizenship1",
         "Id": "citizenship1",
-        "Label": "Primary Citizenship (options: , United States, Afghanistan)",
-        "Key": "Residency Status"
+        "Class": null,
+        "Label": "Primary Citizenship (options: , United States, Afghanistan)"
     },
     {
         "Tag": "select",
         "Name": "citizenship2",
         "Id": "citizenship2",
-        "Label": "Dual Citizenship (options: , United States, Afghanistan)",
-        "Key": "Residency Status"
+        "Class": null,
+        "Label": "Dual Citizenship (options: , United States, Afghanistan)"
     },
     {
         "Tag": "select",
         "Name": "visa",
         "Id": "visa",
+        "Class": null,
         "Label": "Current Visa Type (options: , F-1 Academic Student, H-1 Temporary Worker)",
         "Key": "Visa"
     },
