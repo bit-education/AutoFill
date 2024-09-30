@@ -1,0 +1,820 @@
+[
+    {
+        "data": [
+            {
+                "Tag": "select",
+                "Name": "form_fb467d94-37d5-4eab-b5f0-c70003102ab8",
+                "Id": "form_fb467d94-37d5-4eab-b5f0-c70003102ab8",
+                "Label": "Birth Country, options: Afghanistan, Aland Islands",
+                "Children": [
+                    {
+                        "Tag": "input",
+                        "Type": "text",
+                        "Name": "form_d09365fc-fa6d-4205-9384-3e74469582f9",
+                        "Id": "form_d09365fc-fa6d-4205-9384-3e74469582f9",
+                        "Label": "Birth City * Required when selecting a Birth Country.",
+                        "Children": []
+                    },
+                    {
+                        "Tag": "select",
+                        "Name": "form_68ee32fd-1b2e-43ec-ace8-07f29ad68dfa",
+                        "Id": "form_68ee32fd-1b2e-43ec-ace8-07f29ad68dfa",
+                        "Label": "Please select the US state or territory in which you were born. * Required when selecting U.S. as Birth Country., options: Alabama, Alaska",
+                        "Children": [
+                            {
+                                "Tag": "select",
+                                "Name": "form_51ac3697-ab49-44ee-8fed-6f5699f93ff8",
+                                "Id": "form_51ac3697-ab49-44ee-8fed-6f5699f93ff8",
+                                "Label": "California Birth County * Required when selecting California as state in which you were born., options: Alameda, Alpine",
+                                "Children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Tag": "select",
+                "Name": "form_cd94a3a1-d70f-472f-a9ce-aae17bb8fcb5",
+                "Id": "form_cd94a3a1-d70f-472f-a9ce-aae17bb8fcb5",
+                "Label": "Do you consider yourself Hispanic or Latino?, options: Yes, No",
+                "Children": [
+                    {
+                        "Tag": "select",
+                        "Name": "form_5915bffc-5923-4d46-b53a-f48381d1482d",
+                        "Id": "form_5915bffc-5923-4d46-b53a-f48381d1482d",
+                        "Label": "Hispanic/Latino, or of Spanish Origin, options: Central American, Chicano/Mexican American",
+                        "Children": []
+                    }
+                ]
+            },
+            {
+                "Tag": "checkbox",
+                "Name": "form_15c93cfd-8305-414a-b928-4b4655752871",
+                "Id": "form_15c93cfd-8305-414a-b928-4b4655752871",
+                "Label": "Race/Ethnicity In addition, please select one or more of the following racial categories as appropriate for you. United States American Indian or Alaska Native",
+                "Children": [
+                    {
+                        "Tag": "checkbox",
+                        "Name": "form_15c93cfd-8305-414a-b928-4b4655752871",
+                        "Id": "form_15c93cfd-8305-414a-b928-4b4655752871_2",
+                        "Label": "Asian American/Asian",
+                        "Children": [
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_1",
+                                "Label": "Chinese/Chinese American (including Taiwanese)",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_2",
+                                "Label": "Filipino/Filipino American",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_3",
+                                "Label": "Japanese/Japanese American",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_4",
+                                "Label": "Korean/Korean American",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_5",
+                                "Label": "Other Asian/Asian American Ancestry",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_6",
+                                "Label": "South Asian (e.g., from India, Pakistan, Sri Lanka, Bangladesh)",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_7",
+                                "Label": "Southeast Asian (e.g., from Cambodia, Laos, Thailand)",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_8",
+                                "Label": "Vietnamese/Vietnamese American",
+                                "Children": []
+                            }
+                        ]
+                    },
+                    {
+                        "Tag": "checkbox",
+                        "Name": "form_15c93cfd-8305-414a-b928-4b4655752871",
+                        "Id": "form_15c93cfd-8305-414a-b928-4b4655752871_3",
+                        "Label": "African American or Black",
+                        "Children": [
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_420db64e-3ee7-4fde-a8a2-41e1810e059f",
+                                "Id": "form_420db64e-3ee7-4fde-a8a2-41e1810e059f_1",
+                                "Label": "African (from African continent)",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_420db64e-3ee7-4fde-a8a2-41e1810e059f",
+                                "Id": "form_420db64e-3ee7-4fde-a8a2-41e1810e059f_2",
+                                "Label": "Caribbean (African/Black Ancestry)",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_420db64e-3ee7-4fde-a8a2-41e1810e059f",
+                                "Id": "form_420db64e-3ee7-4fde-a8a2-41e1810e059f_3",
+                                "Label": "Central or South American",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_420db64e-3ee7-4fde-a8a2-41e1810e059f",
+                                "Id": "form_420db64e-3ee7-4fde-a8a2-41e1810e059f_4",
+                                "Label": "Other Black or African ancestry",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_420db64e-3ee7-4fde-a8a2-41e1810e059f",
+                                "Id": "form_420db64e-3ee7-4fde-a8a2-41e1810e059f_5",
+                                "Label": "U.S./African American",
+                                "Children": []
+                            }
+                        ]
+                    },
+                    {
+                        "Tag": "checkbox",
+                        "Name": "form_15c93cfd-8305-414a-b928-4b4655752871",
+                        "Id": "form_15c93cfd-8305-414a-b928-4b4655752871_4",
+                        "Label": "Native Hawaiian or Other Pacific Islander",
+                        "Children": [
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339",
+                                "Id": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339_1",
+                                "Label": "Guamanian/Chamorro",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339",
+                                "Id": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339_2",
+                                "Label": "Native Hawaiian",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339",
+                                "Id": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339_3",
+                                "Label": "Other Pacific Islander Ancestry",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339",
+                                "Id": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339_4",
+                                "Label": "Samoan",
+                                "Children": []
+                            }
+                        ]
+                    },
+                    {
+                        "Tag": "checkbox",
+                        "Name": "form_15c93cfd-8305-414a-b928-4b4655752871",
+                        "Id": "form_15c93cfd-8305-414a-b928-4b4655752871_5",
+                        "Label": "White/Caucasian",
+                        "Children": [
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8",
+                                "Id": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8_1",
+                                "Label": "European/European American",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8",
+                                "Id": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8_2",
+                                "Label": "Middle Eastern/Middle Eastern American",
+                                "Children": []
+                            },
+                            {
+                                "Tag": "checkbox",
+                                "Name": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8",
+                                "Id": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8_3",
+                                "Label": "North African American",
+                                "Children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Tag": "input",
+                "Type": "text",
+                "Name": "form_ae04d241-371c-439f-9fb8-bc907d7aacf5",
+                "Id": "form_ae04d241-371c-439f-9fb8-bc907d7aacf5",
+                "Label": "United States American Indian or Alaska Native: Please specify tribe(s) [If more than one, please separate by comma]",
+                "Children": []
+            }
+        ]
+    },
+    {
+        "data": [
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_1",
+                "Label": "Asian/American Asian: Chinese/Chinese American (including Taiwanese)",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_2",
+                "Label": "Asian/American Asian: Filipino/Filipino American",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_3",
+                "Label": "Asian/American Asian: Japanese/Japanese American",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_4",
+                "Label": "Asian/American Asian: Korean/Korean American",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_5",
+                "Label": "Asian/American Asian: Other Asian/Asian American Ancestry",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_6",
+                "Label": "Asian/American Asian: South Asian (e.g., from India, Pakistan, Sri Lanka, Bangladesh)",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_7",
+                "Label": "Asian/American Asian: Southeast Asian (e.g., from Cambodia, Laos, Thailand)",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7",
+                "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_8",
+                "Label": "Asian/American Asian: Vietnamese/Vietnamese American",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339",
+                "Id": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339_1",
+                "Label": "Native Hawaiian or Other Pacific Islander: Guamanian/Chamorro",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339",
+                "Id": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339_2",
+                "Label": "Native Hawaiian or Other Pacific Islander: Native Hawaiian",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339",
+                "Id": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339_3",
+                "Label": "Native Hawaiian or Other Pacific Islander: Other Pacific Islander Ancestry",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339",
+                "Id": "form_f2a56777-5cc2-463f-93ff-0a8ba8b1c339_4",
+                "Label": "Native Hawaiian or Other Pacific Islander: Samoan",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8",
+                "Id": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8_1",
+                "Label": "White/Caucasian: European/European American",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8",
+                "Id": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8_2",
+                "Label": "White/Caucasian: Middle Eastern/Middle Eastern American",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8",
+                "Id": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8_3",
+                "Label": "White/Caucasian: North African American",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8",
+                "Id": "form_7318c828-6a9a-4dab-bd0e-e85ed7d4b1c8_4",
+                "Label": "White/Caucasian: Other White/Caucasian Ancestry",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_f8cef8d3-db33-4866-b0e6-6da0f9c18551",
+                "Id": "form_f8cef8d3-db33-4866-b0e6-6da0f9c18551",
+                "Label": "Are/were you a foster youth? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_80188567-a2ff-4516-ac09-ebbe504c15e8",
+                "Id": "form_80188567-a2ff-4516-ac09-ebbe504c15e8",
+                "Label": "Did you attend community college? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_9476a787-3160-402a-81e1-6a1ea79c8bf1",
+                "Id": "form_9476a787-3160-402a-81e1-6a1ea79c8bf1",
+                "Label": "In which state did you attend community college? Alabama, Alaska",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_93864991-bf09-4098-82aa-b84086b493ff",
+                "Id": "form_93864991-bf09-4098-82aa-b84086b493ff",
+                "Label": "California community college you attended: Allan Hancock College, American River Coll (Placerville)",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_05178e23-37af-4f34-ba60-663d5de4b6bb",
+                "Id": "form_05178e23-37af-4f34-ba60-663d5de4b6bb",
+                "Label": "Please select the option that best describes your California community college experience: Earned Associates Degree, Completed transferable academic units toward four-year degree",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_a45b2476-a33a-4b93-ad24-e0fae7ecfdd3",
+                "Id": "form_a45b2476-a33a-4b93-ad24-e0fae7ecfdd3",
+                "Label": "Please indicate the highest level of education for Parent 1 or Legal Guardian 1: No High School, Some High School",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_854e93dc-9fa7-4090-a6c2-3725efacc731",
+                "Id": "form_854e93dc-9fa7-4090-a6c2-3725efacc731",
+                "Label": "Please indicate the highest level of education for Parent 2 or Legal Guardian 2: No High School, Some High School",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_82fa37ba-2bc9-4ed0-80a2-c1e36066fcca",
+                "Id": "form_82fa37ba-2bc9-4ed0-80a2-c1e36066fcca",
+                "Label": "Will you be or were you the first among your siblings to graduate from college or university? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_6c13e2d5-e7cd-442e-a2c5-27b212a0ae4c",
+                "Id": "form_6c13e2d5-e7cd-442e-a2c5-27b212a0ae4c",
+                "Label": "Will you be the first among your siblings to enroll in a master's or doctoral degree program? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_a9d0f9f8-cafd-405c-97bb-c9deab951073",
+                "Id": "form_a9d0f9f8-cafd-405c-97bb-c9deab951073",
+                "Label": "Have any of your siblings earned a master's or doctoral degree? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_19659e12-7bf9-44eb-8c8a-ad5d6f92fd9d",
+                "Id": "form_19659e12-7bf9-44eb-8c8a-ad5d6f92fd9d",
+                "Label": "Did you work while completing your undergraduate degree? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_550d4106-b248-4f4f-980a-c0fef511f815",
+                "Id": "form_550d4106-b248-4f4f-980a-c0fef511f815",
+                "Label": "On average, how many hours per week did you work while completing your undergraduate degree? 1-5 hours, 6-10 hours",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_23f19c74-e8c7-4c5f-a6ed-dd534304019e",
+                "Id": "form_23f19c74-e8c7-4c5f-a6ed-dd534304019e",
+                "Label": "If I am admitted to the University of California I expect to be: Veteran (discharged; no longer serving on active duty or in the Reserve or National Guard), On Active Duty",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4538c21d-8ecc-4e9f-b445-8cb3fca6b3a2",
+                "Id": "form_4538c21d-8ecc-4e9f-b445-8cb3fca6b3a2_1",
+                "Label": "What will be your affiliation to the U.S. Armed Forces on your first day of class at UC? (Check all that apply) I am not affiliated with the U.S. Armed Forces",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4538c21d-8ecc-4e9f-b445-8cb3fca6b3a2",
+                "Id": "form_4538c21d-8ecc-4e9f-b445-8cb3fca6b3a2_2",
+                "Label": "What will be your affiliation to the U.S. Armed Forces on your first day of class at UC? (Check all that apply) Dependent adult child of a veteran or service member",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4538c21d-8ecc-4e9f-b445-8cb3fca6b3a2",
+                "Id": "form_4538c21d-8ecc-4e9f-b445-8cb3fca6b3a2_3",
+                "Label": "What will be your affiliation to the U.S. Armed Forces on your first day of class at UC? (Check all that apply) Dependent spouse of a veteran or service member",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4538c21d-8ecc-4e9f-b445-8cb3fca6b3a2",
+                "Id": "form_4538c21d-8ecc-4e9f-b445-8cb3fca6b3a2_4",
+                "Label": "What will be your affiliation to the U.S. Armed Forces on your first day of class at UC? (Check all that apply) Veteran",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "checkbox",
+                "Name": "form_4538c21d-8ecc-4e9f-b445-8cb3fca6b3a2",
+                "Id": "form_4538c21d-8ecc-4e9f-b445-8cb3fca6b3a2_5",
+                "Label": "What will be your affiliation to the U.S. Armed Forces on your first day of class at UC? (Check all that apply) Reservist",
+                "Children": []
+            }
+        ]
+    },
+    {
+        "data": [
+            {
+                "Tag": "select",
+                "Name": "form_6c13e2d5-e7cd-442e-a2c5-27b212a0ae4c",
+                "Id": "form_6c13e2d5-e7cd-442e-a2c5-27b212a0ae4c",
+                "Label": "Will you be the first among your siblings to enroll in a master's or doctoral degree program? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_a9d0f9f8-cafd-405c-97bb-c9deab951073",
+                "Id": "form_a9d0f9f8-cafd-405c-97bb-c9deab951073",
+                "Label": "Have any of your siblings earned a master's or doctoral degree? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_19659e12-7bf9-44eb-8c8a-ad5d6f92fd9d",
+                "Id": "form_19659e12-7bf9-44eb-8c8a-ad5d6f92fd9d",
+                "Label": "Did you work while completing your undergraduate degree? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_550d4106-b248-4f4f-980a-c0fef511f815",
+                "Id": "form_550d4106-b248-4f4f-980a-c0fef511f815",
+                "Label": "On average, how many hours per week did you work while completing your undergraduate degree? 1-5 hours, 6-10 hours",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_23f19c74-e8c7-4c5f-a6ed-dd534304019e",
+                "Id": "form_23f19c74-e8c7-4c5f-a6ed-dd534304019e",
+                "Label": "If I am admitted to the University of California I expect to be: Veteran (discharged; no longer serving on active duty or in the Reserve or National Guard), On Active Duty",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_14254363-58ae-4f38-8d21-c476e50bd633",
+                "Id": "form_14254363-58ae-4f38-8d21-c476e50bd633",
+                "Label": "I expect to use Tuition Assistance Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "text",
+                "Name": "form_8569ae55-c134-4d71-aabe-051d7ed761e3",
+                "Id": "form_8569ae55-c134-4d71-aabe-051d7ed761e3",
+                "Label": "What is your native language?",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "text",
+                "Name": "form_012d22d3-7413-4a71-bc0c-cb76ae823ec3",
+                "Id": "form_012d22d3-7413-4a71-bc0c-cb76ae823ec3",
+                "Label": "If your native language is not English, how many years of English language instruction have you had?",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_77313555-f54d-41e2-8a46-240ea5be8653",
+                "Id": "form_77313555-f54d-41e2-8a46-240ea5be8653",
+                "Label": "Would you like to add a language in which you are proficient? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "text",
+                "Name": "form_9ee31626-3220-46f1-8a61-ed41a3d2c948",
+                "Id": "form_9ee31626-3220-46f1-8a61-ed41a3d2c948",
+                "Label": "Additional Language 1",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_3ad3874c-795d-4122-8385-47f2402bcb61",
+                "Id": "form_3ad3874c-795d-4122-8385-47f2402bcb61",
+                "Label": "Reading Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_124b2159-f6cb-4daf-b43e-090145121be2",
+                "Id": "form_124b2159-f6cb-4daf-b43e-090145121be2",
+                "Label": "Writing Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_ab5aa3f8-8f7a-4640-9f82-1b4b183620f4",
+                "Id": "form_ab5aa3f8-8f7a-4640-9f82-1b4b183620f4",
+                "Label": "Speaking Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_8ca77bf7-3eff-4177-8834-f10cbc16ffc5",
+                "Id": "form_8ca77bf7-3eff-4177-8834-f10cbc16ffc5",
+                "Label": "Would you like to add another language in which you are proficient? Yes, No",
+                "Children": []
+            }
+        ]
+    },
+    {
+        "data": [
+            {
+                "Tag": "select",
+                "Name": "form_14254363-58ae-4f38-8d21-c476e50bd633",
+                "Id": "form_14254363-58ae-4f38-8d21-c476e50bd633",
+                "Label": "I expect to use Tuition Assistance Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "text",
+                "Name": "form_8569ae55-c134-4d71-aabe-051d7ed761e3",
+                "Id": "form_8569ae55-c134-4d71-aabe-051d7ed761e3",
+                "Label": "What is your native language?",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "text",
+                "Name": "form_012d22d3-7413-4a71-bc0c-cb76ae823ec3",
+                "Id": "form_012d22d3-7413-4a71-bc0c-cb76ae823ec3",
+                "Label": "If your native language is not English, how many years of English language instruction have you had?",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_77313555-f54d-41e2-8a46-240ea5be8653",
+                "Id": "form_77313555-f54d-41e2-8a46-240ea5be8653",
+                "Label": "Would you like to add a language in which you are proficient? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "text",
+                "Name": "form_9ee31626-3220-46f1-8a61-ed41a3d2c948",
+                "Id": "form_9ee31626-3220-46f1-8a61-ed41a3d2c948",
+                "Label": "Additional Language 1",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_3ad3874c-795d-4122-8385-47f2402bcb61",
+                "Id": "form_3ad3874c-795d-4122-8385-47f2402bcb61",
+                "Label": "Reading Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_124b2159-f6cb-4daf-b43e-090145121be2",
+                "Id": "form_124b2159-f6cb-4daf-b43e-090145121be2",
+                "Label": "Writing Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_ab5aa3f8-8f7a-4640-9f82-1b4b183620f4",
+                "Id": "form_ab5aa3f8-8f7a-4640-9f82-1b4b183620f4",
+                "Label": "Speaking Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "text",
+                "Name": "form_e4ba3547-0d4e-4252-96ae-a27c85cf42a4",
+                "Id": "form_e4ba3547-0d4e-4252-96ae-a27c85cf42a4",
+                "Label": "Additional Language 2",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_dc41d61d-26cb-4f74-a78c-3f18997bd19f",
+                "Id": "form_dc41d61d-26cb-4f74-a78c-3f18997bd19f",
+                "Label": "Reading Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_36a42950-a14d-440d-bf05-898ed21f6884",
+                "Id": "form_36a42950-a14d-440d-bf05-898ed21f6884",
+                "Label": "Writing Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_5e8cd11a-baac-4a87-8b23-52cd35887610",
+                "Id": "form_5e8cd11a-baac-4a87-8b23-52cd35887610",
+                "Label": "Speaking Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_bcedb959-ca2a-4483-8f67-a54cd3d376af",
+                "Id": "form_bcedb959-ca2a-4483-8f67-a54cd3d376af",
+                "Label": "Would you like to add another language in which you are proficient? Yes, No",
+                "Children": []
+            },
+            {
+                "Tag": "input",
+                "Type": "text",
+                "Name": "form_d3daf2e9-b53a-4a12-bd1e-088fb9ec06d1",
+                "Id": "form_d3daf2e9-b53a-4a12-bd1e-088fb9ec06d1",
+                "Label": "Additional Language 3",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_47d9ec93-3b1e-4533-a633-1bad450f9b81",
+                "Id": "form_47d9ec93-3b1e-4533-a633-1bad450f9b81",
+                "Label": "Reading Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_e70c06c2-cbd0-49ca-853c-a0ba019b77d6",
+                "Id": "form_e70c06c2-cbd0-49ca-853c-a0ba019b77d6",
+                "Label": "Writing Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_cef774bf-7fe9-4ef9-962c-02dabd9ed8ef",
+                "Id": "form_cef774bf-7fe9-4ef9-962c-02dabd9ed8ef",
+                "Label": "Speaking Beginning, Intermediate",
+                "Children": []
+            },
+            {
+                "Tag": "select",
+                "Name": "form_96fac0c3-4aab-4c74-ac5e-751214d5edcb",
+                "Id": "form_96fac0c3-4aab-4c74-ac5e-751214d5edcb",
+                "Label": "What is your gender identity? * Required Woman, Transgender Woman/Trans Woman",
+                "Children": [
+                    {
+                        "Tag": "input",
+                        "Type": "text",
+                        "Name": "form_5fb41acc-38a8-482a-936a-32417aa3a73a",
+                        "Id": "form_5fb41acc-38a8-482a-936a-32417aa3a73a",
+                        "Label": "Please specify * Required",
+                        "Children": []
+                    }
+                ]
+            },
+            {
+                "Tag": "select",
+                "Name": "form_aa5e0d2a-2c07-44b4-a90e-492ac968f306",
+                "Id": "form_aa5e0d2a-2c07-44b4-a90e-492ac968f306",
+                "Label": "Sexual Orientation  Do you consider yourself to be: Asexual, Bisexual",
+                "Children": [
+                    {
+                        "Tag": "input",
+                        "Type": "text",
+                        "Name": "form_cd1a27fc-59f0-422f-93d2-81653e6a8171",
+                        "Id": "form_cd1a27fc-59f0-422f-93d2-81653e6a8171",
+                        "Label": "Please specify",
+                        "Children": []
+                    }
+                ]
+            },
+            {
+                "Tag": "select",
+                "Name": "form_f695d04f-f2db-4036-81e8-865057ffa92f",
+                "Id": "form_f695d04f-f2db-4036-81e8-865057ffa92f",
+                "Label": "What pronouns do you use? She/Her/Hers, They/Them/Theirs",
+                "Children": [
+                    {
+                        "Tag": "input",
+                        "Type": "text",
+                        "Name": "form_1d93abd5-ddfd-4fbd-b389-3988e81151b1",
+                        "Id": "form_1d93abd5-ddfd-4fbd-b389-3988e81151b1",
+                        "Label": "Please specify",
+                        "Children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": [
+            {
+                "Tag": "select",
+                "Name": "form_96fac0c3-4aab-4c74-ac5e-751214d5edcb",
+                "Id": "form_96fac0c3-4aab-4c74-ac5e-751214d5edcb",
+                "Label": "What is your gender identity? * Required Woman, Transgender Woman/Trans Woman",
+                "Children": [
+                    {
+                        "Tag": "input",
+                        "Type": "text",
+                        "Name": "form_5fb41acc-38a8-482a-936a-32417aa3a73a",
+                        "Id": "form_5fb41acc-38a8-482a-936a-32417aa3a73a",
+                        "Label": "Please specify",
+                        "Children": []
+                    }
+                ]
+            },
+            {
+                "Tag": "select",
+                "Name": "form_aa5e0d2a-2c07-44b4-a90e-492ac968f306",
+                "Id": "form_aa5e0d2a-2c07-44b4-a90e-492ac968f306",
+                "Label": "Sexual Orientation Do you consider yourself to be: Asexual, Bisexual",
+                "Children": [
+                    {
+                        "Tag": "input",
+                        "Type": "text",
+                        "Name": "form_cd1a27fc-59f0-422f-93d2-81653e6a8171",
+                        "Id": "form_cd1a27fc-59f0-422f-93d2-81653e6a8171",
+                        "Label": "Please specify",
+                        "Children": []
+                    }
+                ]
+            }
+        ]
+    }
+]
