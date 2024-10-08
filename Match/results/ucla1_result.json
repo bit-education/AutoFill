@@ -1,0 +1,110 @@
+[
+    {
+        "Tag": "input",
+        "Id": "form_89e0d9d8-c811-4510-bd9d-1b0c8f3c64a5",
+        "Label": "Legal First Name *",
+        "Key": "First Name"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_dab6619d-39b3-4df0-a7c3-abbe5cee7965",
+        "Label": "Legal Middle Name",
+        "Key": "Middle Name"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_98dd7088-14d8-413d-95e6-b589307c69db",
+        "Label": "Legal Last Name *",
+        "Key": "Last Name"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_ea5f364e-118f-48d4-a196-4c711daa6beb",
+        "Label": "Lived First Name *",
+        "Key": "Preferred Name"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_74afbb04-696b-49f8-a765-d5dc6aabc0e2",
+        "Label": "Lived Middle Name",
+        "Key": "Middle Name"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_720ba505-8ea9-4035-98c6-13e631eb4ceb",
+        "Label": "Lived Last Name *",
+        "Key": "Last Name"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_25ae4339-317b-4b9d-b36c-7c446bbbf7a7",
+        "Label": "Lived First Name",
+        "Key": "Preferred Name"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_3ad756f3-09ee-41f6-a089-5c21fd056606",
+        "Label": "Lived Middle Name",
+        "Key": "Middle Name"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_b65b8c42-c709-4159-9c40-1f2fcddad962",
+        "Label": "Lived Last Name",
+        "Key": "Last Name"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_aaf3761d-cb2b-430a-8506-3a71e92ec777",
+        "Label": "Former Name (Please enter full name used)",
+        "Key": "Other Last Names Used"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_c384ddac-98fc-4a40-8a89-f92b6d097d43",
+        "Label": "Current Email *",
+        "Key": "Email Address"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_a6f49a17-3fc1-4401-be4e-1978c052574e",
+        "Label": "Daytime * (include +country code)",
+        "Key": "Telephone"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_b8e2935e-e528-450f-b008-14f64b4a03d4",
+        "Label": "Evening (include +country code)",
+        "Key": "Telephone"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_53fc8fb9-984c-4a1c-894c-30e367f4a1cd",
+        "Label": "Mobile (include +country code)",
+        "Key": "Telephone"
+    },
+    {
+        "Tag": "select",
+        "Id": "form_f25a625a-7f61-4ad3-9218-c5b2c6c415aa",
+        "Label": "Suffix : (options: Jr., Sr.)",
+        "Key": "Suffix"
+    },
+    {
+        "Tag": "select",
+        "Id": "form_4f1c926a-542d-4448-a382-f2b166a08b43_m",
+        "Label": "Birthdate *: Month (options: January, February)",
+        "Key": "Birth Date"
+    },
+    {
+        "Tag": "select",
+        "Id": "form_4f1c926a-542d-4448-a382-f2b166a08b43_d",
+        "Label": "Birthdate *: Day (options: 1, 2)",
+        "Key": "Birth Date"
+    },
+    {
+        "Tag": "select",
+        "Id": "form_4f1c926a-542d-4448-a382-f2b166a08b43_y",
+        "Label": "Birthdate *: Year (options: 2024, 2023)",
+        "Key": "Birth Date"
+    }
+]

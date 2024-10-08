@@ -1,0 +1,20 @@
+[
+    {
+        "Tag": "input",
+        "Id": "form_4c810fb2-d87e-4433-9c0b-18caf5564fe7_1",
+        "Label": "Asian/American Asian: Chinese/Chinese American (including Taiwanese)",
+        "Key": "Ethnicity/Race"
+    },
+    {
+        "Tag": "input",
+        "Id": "form_8569ae55-c134-4d71-aabe-051d7ed761e3",
+        "Label": "What is your native language?",
+        "Key": "Native Language"
+    },
+    {
+        "Tag": "select",
+        "Id": "form_fb467d94-37d5-4eab-b5f0-c70003102ab8",
+        "Label": "Birth Country, options: Afghanistan, Aland Islands",
+        "Key": "Birth Country"
+    }
+]
