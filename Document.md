@@ -58,7 +58,7 @@
 
 ## 前端
 
-**popup.js**
+**scripts/popup.js**
 
 - `highlightFields`函数：高亮已解析的填充框。
 
