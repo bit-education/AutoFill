@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Autofill</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            padding: 20px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin: 0 auto;
+            border-radius: 15px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .input-container {
+            width: 80%;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #333;
+            color: #ffffff;
+        }
+
+        .button-container {
+            display: flex;
+            margin-top: 15px;
+            gap: 10px;
+        }
+
+        button {
+            flex: 1.3;
+            padding: 10px;
+            background-color: #007acc;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            position: relative;
+        }
+
+        button:hover {
+            background-color: #005a9c;
+        }
+
+        button:active {
+            background-color: #004982;
+            transform: scale(0.95);
+        }
+
+        /* 加载动画样式 */
+        #loader {
+            display: none;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .spinner {
+            width: 30px;
+            height: 30px;
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* 禁用按钮样式 */
+        button:disabled {
+            background-color: grey;
+            cursor: not-allowed;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* 禁用按钮样式 */
+        button:disabled {
+            background-color: grey;
+            cursor: not-allowed;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+<script src="../dist/popup.bundle.js"></script>
+<h1>Information Autofill</h1>
+<div id="url"></div>
+<div class="input-container">
+    <label for="id">Account ID</label>
+    <input type="text" id="id" placeholder="Please enter student id">
+</div>
+<div class="input-container">
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Please enter the administrator password">
+</div>
+<div class="button-container">
+    <button id="submit_btn">Submit</button>
+    <button id="clear_btn">Clear</button>
+</div>
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+<div id="message"></div>
+<div id="parsed_field" style="display: none">
+    <h3>Map Fields to Database</h3>
+    <form id="mappingForm">
+        <!-- 解析结果和输入字段将动态生成 -->
+    </form>
+    <button id="mappingsBtn">Submit Mappings</button>
+</div>
+
+<footer>© 2024 ByteEducation</footer>
+
+
+</body>
+</html>
