@@ -1,6 +1,6 @@
 # Document
 
-![extension](.\pictures\extension.png)
+<img src=".\pictures\extension.png" alt="extension" style="zoom: 80%;" />
 
 ## 后端
 
