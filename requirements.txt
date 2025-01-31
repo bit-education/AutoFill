@@ -1,0 +1,11 @@
+bs4
+numpy
+faiss-cpu
+config
+selenium
+webdriver_manager
+scikit-learn
+sentence_transformers
+notion_client
+openai
+tiktoken
