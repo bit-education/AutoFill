@@ -15,7 +15,7 @@ import faiss
 import json
 import re
 import warnings
-import Config
+import config
 
 # 忽略 FutureWarning 警告
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -309,6 +309,6 @@ if __name__ == '__main__':
     # Selenium填回html
     from webdriver_manager.chrome import ChromeDriverManager
     driver_path = ChromeDriverManager().install()
-    Selenium_method = SL_fill(Config.PATH_OF_HTML, test_result, data,
+    Selenium_method = SL_fill(config.PATH_OF_HTML, test_result, data,
                               driver_path=driver_path)
     Selenium_method.Fill()
