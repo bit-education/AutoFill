@@ -9,3 +9,5 @@ sentence_transformers
 notion_client
 openai
 tiktoken
+lxml
+html_chunking

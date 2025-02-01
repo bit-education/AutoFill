@@ -136,5 +136,23 @@ if __name__ == "__main__":
     # print(bs_parse_tag_textarea(bs))
     # print(bs_parse_tag_label(bs))
     bs = bs_html_clean(bs, save_options=3)
-    print(bs)
+    # print(bs)
     # print(clean_html_str(str(bs)))
+    
+    html = clean_html_str(str(bs))
+    
+    print(html)
+    
+    # from html_chunking import get_html_chunks
+    
+    # html_chunks = get_html_chunks(
+    #     html,
+    #     max_tokens=4000,
+    #     is_clean_html=True, 
+    #     attr_cutoff_len=25
+    # )
+    
+    # print(len(html_chunks))
+    # # for i in html_chunks:
+    # #     print(i)
+    # #     print("\n\n")
