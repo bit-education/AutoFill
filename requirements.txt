@@ -11,3 +11,4 @@ openai
 tiktoken
 lxml
 html_chunking
+rapidfuzz
