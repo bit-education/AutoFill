@@ -1,6 +1,8 @@
 """
 根据匹配结果填回html中
 """
+from typing import List
+import bs4
 from bs4 import BeautifulSoup
 from rapidfuzz import process, fuzz
 from sklearn.preprocessing import normalize
@@ -9,10 +11,9 @@ import numpy as np
 import faiss
 import json
 import re
-import warnings
 
 # 清空html中已经填充的部分
-def clear_html(html):
+def clear_html(html: str) -> str:
     soup = BeautifulSoup(html, 'html.parser')
     for input_tag in soup.find_all('input'):
         input_attr = input_tag.attrs
@@ -31,7 +32,7 @@ def clear_html(html):
 
 
 # 判断匹配出来的字段是否在student_data中
-def is_in_student_data(result, student_data):
+def is_in_student_data(result: dict, student_data: dict):
     if type(result['Key']) is list:  # 对多字段匹配到的学生数据进行简单拼接
         value = ' '.join([student_data[key] for key in result['Key'] if key in student_data])
         return value
@@ -42,17 +43,17 @@ def is_in_student_data(result, student_data):
 
 
 class BS_fill_js:
-    def __init__(self, result, html, student_data, test_U):
+    def __init__(self, html:str, html_parse:dict, match_result:List[dict], db_data:dict):
         self.soup = BeautifulSoup(html, 'html.parser')
-        self.test_result = result
-        self.data = student_data
-        self.test_U = test_U
+        self.html_parse = html_parse
+        self.match_result = match_result
+        self.db_data = db_data
         self.fill_set = {"input": {},
                          "checkbox_radio": [],
                          "select": {}}
 
     # 填充input标签的内容
-    def input_field_fill(self, match_result, student_data):
+    def input_field_fill(self, match_result: List[dict], student_data: dict):
         for result in match_result:
             if 'Key' in result and 'Tag' in result and result['Tag'] == 'input':
                 student_value = is_in_student_data(result, student_data)
@@ -65,7 +66,7 @@ class BS_fill_js:
                         self.fill_set["input"][result['Id']] = student_value
 
     # 填充select标签的内容
-    def select_field_fill(self, match_result, student_data):
+    def select_field_fill(self, match_result: List[dict], student_data: dict):
         for result in match_result:
             if 'Key' in result and 'Tag' in result and result['Tag'] == 'select':
                 student_value = is_in_student_data(result, student_data)
@@ -84,7 +85,7 @@ class BS_fill_js:
                             self.fill_set['select'][result['Id']] = most_similar_option.get("value", most_similar_option.text)
 
     # 填充textarea标签的内容
-    def textarea_field_fill(self, match_result, student_data):
+    def textarea_field_fill(self, match_result: List[dict], student_data: dict):
         for result in match_result:
             if 'Key' in result and 'Tag' in result and result['Tag'] == 'textarea':
                 student_value = is_in_student_data(result, student_data)
@@ -96,8 +97,8 @@ class BS_fill_js:
                         self.fill_set['input'][result['Id']] = student_value
 
     # 根据checkbox或者radio中的内容进行语义相似度分析并勾选相应选项
-    def checkbox_radio_field_fill(self, match_result, student_data, test_U):
-        checkbox_dict, radio_dict = input_field_process(match_result, test_U)
+    def checkbox_radio_field_fill(self, match_result: List[dict], student_data: dict):
+        checkbox_dict, radio_dict = input_field_process(match_result, self.html_parse)
         checkbox_checked_id, radio_checked_id = find_fill_id(checkbox_dict, radio_dict, student_data)
         # 根据勾选的选项id进行勾选
         for checkbox_id in checkbox_checked_id:
@@ -111,17 +112,17 @@ class BS_fill_js:
 
     def Fill(self):
         # 处理input
-        self.input_field_fill(self.test_result, self.data)
+        self.input_field_fill(self.match_result, self.db_data)
         # 处理checkbox和radio
-        self.checkbox_radio_field_fill(self.test_result, self.data, self.test_U)
+        self.checkbox_radio_field_fill(self.match_result, self.db_data)
         # 处理select
-        self.select_field_fill(self.test_result, self.data)
+        self.select_field_fill(self.match_result, self.db_data)
         # 处理textarea
-        self.textarea_field_fill(self.test_result, self.data)
+        self.textarea_field_fill(self.match_result, self.db_data)
 
         return self.fill_set
     
-def calculate_semantic_similarity_fuzz(target_text, text_list, checkbox_threshold_quantile = -1):
+def calculate_semantic_similarity_fuzz(target_text:str, text_list:List[str], checkbox_threshold_quantile:float = -1):
     if checkbox_threshold_quantile > 0:
         fuzzy_result = process.extract(target_text, text_list, scorer=fuzz.partial_ratio)
         # 将所有相似度进行归一化得出相对阈值
@@ -162,7 +163,7 @@ def calculate_semantic_similarity_transformer(model, target_text, text_list, che
     return text_list[indices[0][0]]
 
 # 根据option中的内容进行语义相似度分析
-def option_analysis(value, select_tag):
+def option_analysis(value: str, select_tag: bs4.element.Tag):
     options_text = {}
     # 获取select标签的所有option
     for option in select_tag.find_all('option'):
@@ -170,17 +171,15 @@ def option_analysis(value, select_tag):
     most_similar_option_text = calculate_semantic_similarity_fuzz(value, list(options_text.keys()))
     return options_text[most_similar_option_text]
 
-
 # 处理input标签(在已有解析结果找到所有具有Key值撇配的checkbox和radio标签)
-def input_field_process(match_result, test_U):
-    test_html_parse_result = json.load(open(f'./result/final/{test_U}_final_result.json', 'r', encoding='utf-8'))
+def input_field_process(match_result: List[dict], html_parse:dict):
     # 定义存储checkbox以及radio对应的学生数据以及其id的字典（格式为{key1: [id1, id2, ...], key2: [id3, id4, ...], ...}）
     checkbox_dict = defaultdict(list)
     radio_dict = defaultdict(list)
     # 将所有checkbox和radio类型的input标签提取出来
     checkbox_tags = {}
     radio_tags = {}
-    for input_field in test_html_parse_result['input']:
+    for input_field in html_parse['input']:
         if input_field['Type'] == 'checkbox':
             checkbox_tags[input_field['Id']] = input_field
         elif input_field['Type'] == 'radio':
@@ -203,9 +202,8 @@ def input_field_process(match_result, test_U):
                     radio_dict[key].append(radio_tags[result['Id']])
     return checkbox_dict, radio_dict
 
-
 # 存储radio和checkbox中需要勾选的选项id
-def find_fill_id(checkbox_dict, radio_dict, student_data):
+def find_fill_id(checkbox_dict: dict, radio_dict: dict, student_data: dict):
     checkbox_checked_id = set()
     radio_checked_id = set()
     # 将radio标签的选项标记为checked（单选，只需取最高语义相似度选项）
