@@ -5,8 +5,9 @@ AI_MATCH_CONTEXT = "You are a data processing expert who can match the html elem
 
 def match_keys(
     api_key: str,
-    frontend_fields: dict, 
-    database_fields: dict
+    frontend_fields: list[dict], 
+    database_fields: dict,
+    model: str = "gpt-4o-mini",
 ):
     client = OpenAI(api_key=api_key)
     matching_prompt = f"""
@@ -25,7 +26,7 @@ def match_keys(
     ]
     
     completion = client.chat.completions.create(
-        model="gpt-4o",
+        model=model,
         messages=_messages,
         functions=[
             {

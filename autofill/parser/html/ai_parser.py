@@ -87,7 +87,7 @@ class AIHTMLParser:
                                         "Id": {"type": "string",
                                             "description": "The id attribute of the tag."},
                                         "Label": {"type": "string",
-                                                "description": "English only. The label and information which can associate with the fill element. If the element is a checkbox or radio button, the 'Label' attribute will include the premise information and its text. If the element is a select element, the 'Label' attribute will include the brief summary of the premise information and its options. Don't worry about the premise information getting too long, just summarize it briefly (don't make it too long) and put it in front of the first answer (not for Children). Be sure to remove newline characters and redundant spaces."},
+                                                "description": "English only. Required field. The label and information which can associate with the fill element. If the element is a checkbox or radio button, the 'Label' attribute will include the premise information and its text. If the element is a select element, the 'Label' attribute will include the brief summary of the premise information and its options. Don't worry about the premise information getting too long, just summarize it briefly (don't make it too long) and put it in front of the first answer (not for Children). Be sure to remove newline characters and redundant spaces."},
                                         'Children': {"type": "array",
                                                     "description": "A list of child elements which has the same structure and properties as items. If an element has logic that affects other elements, such as checkboxes enabling or showing other input fields, the affected elements will be listed here. Don't put option tags in here.",
                                                     "items": {
@@ -103,11 +103,11 @@ class AIHTMLParser:
                                                                 "items": {}
                                                             }
                                                         },
-                                                        "required": ["Tag", "Id", "Label", "Children"]
+                                                        "required": ["Tag", "Id", "Label"]
                                                     }
                                                     },
                                     },
-                                    "required": ["Tag", "Id", "Label", "Children"]
+                                    "required": ["Tag", "Id", "Label"]
                                 }
                             }
                         },
@@ -136,7 +136,6 @@ class AIHTMLParser:
             chunk_size=chunk_size,
             overlap_size=chunk_overlap,
         )
-        print(html_chunks)
         
         prev_msg = None
         parse_results = []

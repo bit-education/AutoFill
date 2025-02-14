@@ -113,12 +113,12 @@ class BS_fill_js:
     def Fill(self):
         # 处理input
         self.input_field_fill(self.match_result, self.db_data)
+        # 处理textarea
+        self.textarea_field_fill(self.match_result, self.db_data)
         # 处理checkbox和radio
         self.checkbox_radio_field_fill(self.match_result, self.db_data)
         # 处理select
         self.select_field_fill(self.match_result, self.db_data)
-        # 处理textarea
-        self.textarea_field_fill(self.match_result, self.db_data)
 
         return self.fill_set
     
@@ -169,6 +169,7 @@ def option_analysis(value: str, select_tag: bs4.element.Tag):
     for option in select_tag.find_all('option'):
         options_text[re.sub(r'\s+', ' ', option.text).strip()] = option
     most_similar_option_text = calculate_semantic_similarity_fuzz(value, list(options_text.keys()))
+    print(list(options_text.keys()), value, most_similar_option_text, options_text[most_similar_option_text])
     return options_text[most_similar_option_text]
 
 # 处理input标签(在已有解析结果找到所有具有Key值撇配的checkbox和radio标签)

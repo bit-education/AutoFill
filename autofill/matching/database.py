@@ -23,7 +23,17 @@ def parse_type(content):
     elif tp == "email":
         return content["email"]
     elif tp == "date":
-        return content['date']
+        date = content['date']
+        if not isinstance(date, dict):
+            return ""
+        if date["start"] and date["end"]:
+            return f"{date['start']} - {date['end']}"
+        elif date["start"]:
+            return date["start"]
+        elif date["end"]:
+            return date["end"]
+        else:
+            return ""
     elif tp == "status":
         return content["status"]['name']
     elif tp == "relation":
