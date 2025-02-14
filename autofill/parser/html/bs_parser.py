@@ -99,7 +99,7 @@ def bs_html_clean(
     remove_tags: List[str] = BS_UNRELAVENT_TAGS,
     save_attrs: List[str] = BS_SAVE_ATTRS,
     save_options: int = -1,
-) -> BeautifulSoup:
+) -> str:
     # remove unrelavent tags
     if len(remove_tags) > 0:
         for tag in bs(remove_tags):

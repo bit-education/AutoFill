@@ -129,13 +129,14 @@ class AIHTMLParser:
         chunk_mode: Literal["text", "dom"] = "text",
         chunk_size: int = 8000,
         chunk_overlap: int = 2000,
-    ):
+    ) -> list:
         html_chunks = self.chunknize_html(
             html,
             mode=chunk_mode,
             chunk_size=chunk_size,
             overlap_size=chunk_overlap,
         )
+        print(html_chunks)
         
         prev_msg = None
         parse_results = []
