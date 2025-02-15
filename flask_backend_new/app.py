@@ -62,10 +62,16 @@ def submit():
     password = data.get('password')  # 管理员密码
     html_source = data.get('html_source')  # 学生申请页面的html源码
     
-    url_hash = json.load(open(URL_HASH_FILE, "r", encoding="utf-8"))
+    # DEBUG
+    # name = "0000000"
+    # student_id = "16bc92c3-d491-8082-8da6-d6d10417d1ad"
+    # test_html_file = "UW.html"
+    # with open(test_html_file, 'r', encoding='utf-8') as f:
+    #     html_source:str = f.read()
+    
     cache_dir = working_dir / "cache" / f"cache_{name}"
     
-    if name in url_hash and cache_dir.exists(): # page has been cached before
+    if cache_dir.exists() and (cache_dir / "parse.json").exists() and (cache_dir / "match.json").exists(): # page has been cached before
         with open(cache_dir / "parse.json", "r") as f:
             parse_res = json.load(f)
         with open(cache_dir / "match.json", "r") as f:
@@ -76,13 +82,13 @@ def submit():
             page_id=student_id
         )
     else: # page not cached in file
-        # create cache dir
-        os.makedirs(cache_dir, exist_ok=True)
         # run parsing and matching
         matches, parse_res, db_data = main(
             html=html_source,
             student_id=student_id
         )
+        # create cache dir
+        os.makedirs(cache_dir, exist_ok=True)
         # save files
         with open(cache_dir / "parse.json", "w") as f:
             json.dump(parse_res, f)
@@ -107,43 +113,6 @@ def submit():
     
     return jsonify({"filled_set": fill_set, "parsed_fields": parse_res, "students_fields": db_fields})
 
-def simple_submit():
-    test_html_file = "UW.html"
-    student_id = "16bc92c3-d491-8082-8da6-d6d10417d1ad"
-    with open(test_html_file, 'r', encoding='utf-8') as f:
-        html:str = f.read()
-        
-    # matches, parse_res, db_data = main(
-    #     html=html,
-    #     student_id=student_id
-    # )
-    # print("Parse: ", parse_res)
-    # print("Match: ", matches)
-    
-    # with open("parse_out.json", "w") as f:
-    #     json.dump(parse_res, f)
-    # with open("match_out.json", "w") as f:
-    #     json.dump(matches, f)
-    # with open("db_data.json", "w") as f:
-    #     json.dump(db_data, f)
-    
-    with open("parse_out.json", "r") as f:
-        parse_res = json.load(f)
-    with open("match_out.json", "r") as f:
-        matches = json.load(f)
-    with open("db_data.json", "r") as f:
-        db_data = json.load(f)
-    
-    filler = BS_fill_js(
-        html=html,
-        html_parse=parse_res,
-        match_result=matches,
-        db_data=db_data
-    )
-    fill_set = filler.Fill()
-    print(fill_set)
-
-
 if __name__ == '__main__':
     # app.run()
-    simple_submit()
+    submit()
