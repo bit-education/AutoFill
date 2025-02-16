@@ -23,7 +23,7 @@ function fill(fill_set) {
     const input_field = fill_set["input"];
     for (let id in input_field) {
         const inputElement = document.getElementById(id);
-        if(inputElement) {
+        if(inputElement && inputElement.tagName === 'INPUT' && inputElement.type === 'text') {
             inputElement.value = input_field[id];
             const event = new Event('input', { bubbles: true });
             inputElement.dispatchEvent(event);
@@ -153,7 +153,6 @@ document.addEventListener("DOMContentLoaded", function() {
             } finally {
                 document.getElementById("url").innerText = identifier + " : " + url_name;
             }
-
             // 获取当前网页的 HTML 源码
             chrome.scripting.executeScript(
                 {
